@@ -1,5 +1,13 @@
-*{
-    margin: 0 ;
-    padding: 0 ;
-    box-sizing: border-box;
-}
+// VARIABLES
+@import './misc/variables';
+// GLOBALES
+@import './misc/normalize';
+@import './misc/mixins';
+// PARTIALS
+@import './partials/footer';
+@import './partials/header';
+// VIEWS
+@import './views/you_mision';
+@import './views/art_gallery';
+@import './views/home';
+@import './views/storys';
