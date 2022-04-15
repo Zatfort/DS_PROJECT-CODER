@@ -4,10 +4,8 @@ $principal: #0b0c0d;
 $secondary: #fff;
 $tertiary: #FFD700;
 $cuarta:#100e11;
-$font-primary: "Inter", sans-serif;
-$font-secondary: "Bowly One SC", cursive;
-
-
+$font-primary: 'Playfair Display', serif;
+   
 
 
 $spacings:(
@@ -40,11 +38,9 @@ $color:(
 }
 
 $font-size:(
-    xlarge: 5em,
-    large: 3em,
+    large: 1em,
     medium: 2em,
     small: 1.5em,
-    xsmall:1em
 );
 
 @each $var, $val in $font-size {
