@@ -1,4 +1,22 @@
 .footer_index{
     background-image: linear-gradient(to top, #434343 0%, #0b0b0d 100%);
     font-size: medium;
+    section{
+        gap: 20rem;
+    }
+}
+
+
+
+.footer_mision{
+    background-image: linear-gradient(to top, #434343 0%, #020202 100%);
+    font-size: medium;
+    width: 100%;
+    height: 300px;
+    section{
+        height: 300px;
+        width: 100%;
+        align-items: center;
+    }
+
 }

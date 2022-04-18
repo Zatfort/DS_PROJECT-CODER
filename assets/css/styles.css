@@ -79,9 +79,24 @@ ul {
   max-width: 1800px;
   margin: 0 auto; }
 
+.txt_center {
+  text-align: center; }
+
 .footer_index {
   background-image: linear-gradient(to top, #434343 0%, #0b0b0d 100%);
   font-size: medium; }
+  .footer_index section {
+    gap: 20rem; }
+
+.footer_mision {
+  background-image: linear-gradient(to top, #434343 0%, #020202 100%);
+  font-size: medium;
+  width: 100%;
+  height: 300px; }
+  .footer_mision section {
+    height: 300px;
+    width: 100%;
+    align-items: center; }
 
 /* HEADER & NAVBAR */
 .logo_gif {
@@ -112,6 +127,110 @@ header {
       position: relative; }
       header .menu .menu__item .menu__link--active {
         border-bottom: 2px solid white; }
+
+.parallax-destino {
+  width: 100%;
+  height: 750px;
+  background-image: url(../../assets/images/fotos/destino/banner.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; }
+
+hr {
+  opacity: .2;
+  color: #fde49f;
+  margin: 30px 50px; }
+
+.background {
+  height: 100%;
+  width: 100%;
+  background-image: url(../../assets/images/dark-souls-brand_background-long.jpg);
+  animation: background-move 100s linear infinite;
+  animation-duration: 100s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: background-move; }
+
+@keyframes background-move {
+  100% {
+    background-position: 3000px 0px; } }
+
+.maindestino .contenedor_santuario article {
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+  align-items: center; }
+  .maindestino .contenedor_santuario article h1 {
+    font-size: 4.1em; }
+
+.maindestino .div_h2 {
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+  align-items: center; }
+  .maindestino .div_h2 h2 {
+    font-size: 3.1em; }
+
+.maindestino .section_descripcion__pri-article {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-size: 2.9em;
+  border-bottom: 1px solid #fde49f; }
+
+.maindestino .section_descripcion__pri-div {
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2.9em; }
+
+.maindestino .section_descripcion__seg-article {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-size: 2.9em; }
+
+.maindestino .section_descripcion__seg-div {
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2.9em; }
+
+.maindestino .section_descripcion .segdiv {
+  border-bottom: 1px solid #fde49f; }
+
+.maindestino .section_descripcion__ter-article .ter-article_pridiv {
+  justify-content: space-around;
+  align-items: center; }
+  .maindestino .section_descripcion__ter-article .ter-article_pridiv img {
+    width: 550px;
+    height: 550px; }
+  .maindestino .section_descripcion__ter-article .ter-article_pridiv p {
+    font-size: 2.9em;
+    text-align: center; }
+
+.maindestino .section_descripcion__ter-article .ter-article_secdiv {
+  height: 800px;
+  justify-content: space-around;
+  align-items: center; }
+  .maindestino .section_descripcion__ter-article .ter-article_secdiv p {
+    font-size: 2.9em;
+    text-align: center; }
 
 /* ----index---- */
 .parallax-completo {
@@ -146,7 +265,7 @@ header {
     .contenedor_principal .contenedor_parrafo--img img {
       width: 700px;
       height: 700px; }
-    .contenedor_principal .contenedor_parrafo--img .divp p:first-child {
+    .contenedor_principal .contenedor_parrafo--img .divp p {
       text-align: center;
       width: 970px; }
   .contenedor_principal .contenedor_parrafo--p2 {
