@@ -96,7 +96,8 @@ ul {
   .footer_mision section {
     height: 300px;
     width: 100%;
-    align-items: center; }
+    align-items: center;
+    justify-content: space-around; }
 
 /* HEADER & NAVBAR */
 .logo_gif {
@@ -137,15 +138,11 @@ header {
   background-position: center;
   background-size: cover; }
 
-hr {
-  opacity: .2;
-  color: #fde49f;
-  margin: 30px 50px; }
-
 .background {
   height: 100%;
   width: 100%;
   background-image: url(../../assets/images/dark-souls-brand_background-long.jpg);
+  animation-name: background-move;
   animation: background-move 100s linear infinite;
   animation-duration: 100s;
   animation-timing-function: linear;
@@ -153,20 +150,21 @@ hr {
   animation-iteration-count: infinite;
   animation-direction: normal;
   animation-fill-mode: none;
-  animation-play-state: running;
-  animation-name: background-move; }
+  animation-play-state: running; }
 
 @keyframes background-move {
   100% {
     background-position: 3000px 0px; } }
 
-.maindestino .contenedor_santuario article {
-  width: 100%;
-  height: 200px;
-  justify-content: center;
-  align-items: center; }
-  .maindestino .contenedor_santuario article h1 {
-    font-size: 4.1em; }
+.maindestino .contenedor_santuario {
+  background-color: #100e11; }
+  .maindestino .contenedor_santuario article {
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center; }
+    .maindestino .contenedor_santuario article h1 {
+      font-size: 4.1em; }
 
 .maindestino .div_h2 {
   width: 100%;
@@ -232,6 +230,90 @@ hr {
     font-size: 2.9em;
     text-align: center; }
 
+.maindestino .section_descripcion__cua-article .cua-article_pridiv {
+  width: 100%;
+  height: 700px;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10rem; }
+  .maindestino .section_descripcion__cua-article .cua-article_pridiv p {
+    width: 800px;
+    font-size: 2.9em;
+    text-align: center; }
+  .maindestino .section_descripcion__cua-article .cua-article_pridiv img {
+    width: 900px;
+    height: 498px; }
+
+.maindestino .section_descripcion__cua-article .parallax-destino2 {
+  width: 100%;
+  height: 750px;
+  background-image: url(../../assets/images/fotos/destino/23.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: start; }
+  .maindestino .section_descripcion__cua-article .parallax-destino2 h2 {
+    font-size: 3.1em; }
+
+.maindestino .section_descripcion__cua-article .div_presentacion-quelana {
+  width: 100%;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2.9em; }
+
+.maindestino .section_descripcion__cua-article .cua-article_secdiv {
+  width: 100%;
+  height: 800px;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10rem;
+  font-size: 2.9em; }
+
+.maindestino .section_descripcion__cua-article .hermanas_div {
+  width: 100%;
+  height: 600px;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10rem;
+  font-size: 2.9em; }
+
+.maindestino .section_descripcion__cua-article .cua-article_terdiv {
+  width: 100%;
+  height: 500px;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10rem;
+  font-size: 2.9em; }
+
+.maindestino .section_descripcion__cua-article .cua-article_cuadiv {
+  width: 100%;
+  height: 750px;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10rem;
+  font-size: 2.9em; }
+
+.maindestino .section_descripcion .div_bellend {
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2.9em; }
+
+.maindestino .section_descripcion__quin-article {
+  width: 100%;
+  height: 700px;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10rem;
+  font-size: 2.9em; }
+
 /* ----index---- */
 .parallax-completo {
   width: 100%;
@@ -239,10 +321,10 @@ hr {
   background-image: url(../../assets/images/Image3.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
-  background-position: center; }
+  align-items: flex-end; }
 
 .contenedor_principal {
   background-color: #0b0b0d; }
@@ -289,3 +371,81 @@ hr {
     width: 100%;
     height: 300px;
     justify-content: center; }
+
+.parallax-completo__storys {
+  width: 100%;
+  height: 807px;
+  background-image: url(../../assets/images/fotos/Storys/juntada22.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; }
+
+.main_storys .contenedor_storys article {
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  background-color: #100e11; }
+  .main_storys .contenedor_storys article h1 {
+    font-size: 4.1em; }
+
+.main_storys .contendor_introduccion-storys .introduccion_storys {
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.1em;
+  color: #fdfaf8; }
+
+.main_storys .introduccion__parrafo {
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.1em;
+  color: #fdfaf8; }
+
+.main_storys .contenedor {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh; }
+  .main_storys .contenedor figure {
+    position: relative;
+    height: 521px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px white;
+    cursor: pointer; }
+    .main_storys .contenedor figure img {
+      width: 100%;
+      height: 100%;
+      transition: all 500ms ease-in-out; }
+    .main_storys .contenedor figure .capa {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(11, 103, 123, 0.7);
+      transition: all 500ms ease-in-out;
+      opacity: 0;
+      visibility: hidden;
+      text-align: center; }
+  .main_storys .contenedor figure:hover > .capa {
+    opacity: 1;
+    visibility: visible; }
+  .main_storys .contenedor figure:hover > .capa h3 {
+    margin-top: 90px;
+    margin-bottom: 1px;
+    font-size: large; }
+  .main_storys .contenedor figure:hover > img {
+    transform: scale(1.3); }
+  .main_storys .contenedor h3 {
+    color: #fff;
+    font-weight: 4000;
+    margin-bottom: 120px;
+    transition: all 500ms ease-in-out;
+    margin-top: 30px; }

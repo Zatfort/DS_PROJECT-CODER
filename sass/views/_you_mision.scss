@@ -8,26 +8,12 @@
     background-size: cover;
 }
 
-hr {
-    opacity: .2;
-    color: #fde49f;
-    margin: 30px 50px;
-    // display: block;
-    // unicode-bidi: isolate;
-    // margin-block-start: 0.5em;
-    // margin-block-end: 1.5em;
-    // margin-inline-start: auto;
-    // margin-inline-end: auto;
-    // overflow: hidden;
-    // border-style: inset;
-    // border-width: 1px;
-}
-
-.background{
+.background {
     height: 100%;
     width: 100%;
     background-image: url(../../assets/images/dark-souls-brand_background-long.jpg);
 
+    animation-name: background-move;
     animation: background-move 100s linear infinite;
     animation-duration: 100s;
     animation-timing-function: linear;
@@ -36,19 +22,19 @@ hr {
     animation-direction: normal;
     animation-fill-mode: none;
     animation-play-state: running;
-    animation-name: background-move;
 }
 
 @keyframes background-move {
-    100%{
+    100% {
         background-position: 3000px 0px;
     }
-    
+
 }
 
 .maindestino {
-    // background-color: #100e11;
+
     .contenedor_santuario {
+        background-color: #100e11;
         article {
             width: 100%;
             height: 200px;
@@ -112,36 +98,155 @@ hr {
             text-align: center;
             font-size: 2.9em;
         }
-        .segdiv{
+
+        .segdiv {
             border-bottom: 1px solid #fde49f;
-            
+
 
         }
 
         &__ter-article {
-            .ter-article_pridiv{
+            .ter-article_pridiv {
                 justify-content: space-around;
                 align-items: center;
+
                 img {
                     width: 550px;
                     height: 550px;
                 }
-                p{
-                 font-size: 2.9em;
-                 text-align: center;
+
+                p {
+                    font-size: 2.9em;
+                    text-align: center;
                 }
             }
-            .ter-article_secdiv{
+
+            .ter-article_secdiv {
                 height: 800px;
                 justify-content: space-around;
                 align-items: center;
-                p{
-                 font-size: 2.9em;
-                 text-align: center;
+
+                p {
+                    font-size: 2.9em;
+                    text-align: center;
+                }
+            }
+        }
+
+        &__cua-article {
+            .cua-article_pridiv {
+                width: 100%;
+                height: 700px;
+                justify-content: space-around;
+                align-items: center;
+                gap: 10rem;
+
+                p {
+                    width: 800px;
+                    font-size: 2.9em;
+                    text-align: center;
+                }
+
+                img {
+                    width: 900px;
+                    height: 498px;
                 }
 
             }
+
+            .parallax-destino2 {
+                width: 100%;
+                height: 750px;
+                background-image: url(../../assets/images/fotos/destino/23.png);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-position: center;
+                background-size: cover;
+                display: flex;
+                
+                align-items: flex-end;
+                justify-content: start;
+                
+
+                h2 {
+                    font-size: 3.1em;
+                }
+
+
+            }
+
+            .div_presentacion-quelana {
+                width: 100%;
+                height: 100px;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-size: 2.9em;
+            }
+
+            .cua-article_secdiv {
+                width: 100%;
+                height: 800px;
+                justify-content: space-around;
+                align-items: center;
+                gap: 10rem;
+                font-size: 2.9em;
+
+            }
+
+            .hermanas_div {
+                width: 100%;
+                height: 600px;
+                justify-content: space-around;
+                align-items: center;
+                gap: 10rem;
+                font-size: 2.9em;
+
+            }
+
+            .cua-article_terdiv {
+                width: 100%;
+                height: 500px;
+                justify-content: space-around;
+                align-items: center;
+                gap: 10rem;
+                font-size: 2.9em;
+
+            }
+
+            .cua-article_cuadiv {
+                width: 100%;
+                height: 750px;
+                justify-content: space-around;
+                align-items: center;
+                gap: 10rem;
+                font-size: 2.9em;
+
+            }
+
+
+
+
+        }
+
+        .div_bellend {
+            width: 100%;
+            height: 200px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 2.9em;
+
+        }
+
+        &__quin-article {
+            width: 100%;
+            height: 700px;
+            justify-content: space-around;
+            align-items: center;
+            gap: 10rem;
+            font-size: 2.9em;
+
         }
     }
 }
-
