@@ -1,5 +1,8 @@
 /* Variables */
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap");
+.border {
+  border-radius: 20px; }
+
 .spacing-xlarge {
   padding: xlarge; }
 
@@ -246,17 +249,7 @@ header {
 
 .maindestino .section_descripcion__cua-article .parallax-destino2 {
   width: 100%;
-  height: 750px;
-  background-image: url(../../assets/images/fotos/destino/23.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  align-items: flex-end;
-  justify-content: start; }
-  .maindestino .section_descripcion__cua-article .parallax-destino2 h2 {
-    font-size: 3.1em; }
+  height: 750px; }
 
 .maindestino .section_descripcion__cua-article .div_presentacion-quelana {
   width: 100%;
@@ -443,9 +436,58 @@ header {
     font-size: large; }
   .main_storys .contenedor figure:hover > img {
     transform: scale(1.3); }
+  .main_storys .contenedor a {
+    height: 500px;
+    width: 350px; }
   .main_storys .contenedor h3 {
     color: #fff;
     font-weight: 4000;
-    margin-bottom: 120px;
-    transition: all 500ms ease-in-out;
-    margin-top: 30px; }
+    margin-bottom: 70px;
+    margin-top: 15px;
+    transition: all 500ms ease-in-out; }
+
+.main-serpientes .titulo-serpiente article {
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  background-color: #100e11; }
+  .main-serpientes .titulo-serpiente article h1 {
+    font-size: 4.1em; }
+
+.main-serpientes .container-contenido img {
+  border-radius: 20px; }
+
+.main-serpientes .container-contenido__priarticle {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px; }
+  .main-serpientes .container-contenido__priarticle p {
+    font-size: 3.1em; }
+
+.main-serpientes .container-contenido__secarticle {
+  width: 100%;
+  height: 700px;
+  justify-content: center;
+  align-items: center; }
+  .main-serpientes .container-contenido__secarticle p {
+    font-size: 3.1em; }
+
+.main-serpientes .container-contenido__terarticle {
+  gap: 20rem;
+  width: 100%;
+  height: 700px;
+  justify-content: center;
+  align-items: center; }
+  .main-serpientes .container-contenido__terarticle p {
+    font-size: 3.1em; }
+
+.main-serpientes .container-contenido__cuaarticle {
+  gap: 10rem;
+  width: 100%;
+  height: 700px;
+  justify-content: center;
+  align-items: center; }
+  .main-serpientes .container-contenido__cuaarticle p {
+    font-size: 3.1em; }

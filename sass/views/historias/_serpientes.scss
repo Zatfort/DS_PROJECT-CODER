@@ -1,0 +1,67 @@
+.main-serpientes {
+    .titulo-serpiente {
+        article {
+            width: 100%;
+            height: 200px;
+            justify-content: center;
+            align-items: center;
+
+            background-color: #100e11;
+
+            h1 {
+                font-size: 4.1em;
+            }
+        }
+
+    }
+    .container-contenido{
+        img{
+            border-radius: 20px;
+
+        }
+        &__priarticle{
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 300px;
+            p{
+                font-size: 3.1em
+            }
+        }
+        &__secarticle{
+            width: 100%;
+            height: 700px;
+            justify-content: center;
+            align-items: center;
+            p{
+                font-size: 3.1em;
+            }
+
+        }
+        &__terarticle{
+            gap: 20rem;
+            width: 100%;
+            height: 700px;
+            justify-content: center;
+            align-items: center;
+            p{
+                font-size: 3.1em;
+            }
+
+        }
+        &__cuaarticle{
+            gap: 10rem;
+            width: 100%;
+            height: 700px;
+            justify-content: center;
+            align-items: center;
+            p{
+                font-size: 3.1em;
+            }
+
+        }
+
+    }
+
+
+}
