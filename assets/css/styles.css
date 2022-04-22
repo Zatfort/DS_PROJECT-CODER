@@ -137,6 +137,38 @@ ul {
       width: 200px;
       height: 200px; }
 
+.footer-caballeros {
+  background-image: linear-gradient(to top, #434343 0%, #020202 100%);
+  font-size: medium;
+  width: 100%;
+  height: 300px; }
+  .footer-caballeros section {
+    color: #fff;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around; }
+    .footer-caballeros section img {
+      width: 200px;
+      height: 200px; }
+
+.footer-solaire {
+  background-image: linear-gradient(to top, #434343 0%, #020202 100%);
+  font-size: medium;
+  width: 100%;
+  height: 300px; }
+  .footer-solaire section {
+    color: #fff;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around; }
+    .footer-solaire section img {
+      width: 200px;
+      height: 200px; }
+
 /* HEADER & NAVBAR */
 .logo_gif {
   width: 250px;
@@ -534,6 +566,78 @@ header {
   .main-caballeros .container-contenido .ornstein .descripcion-ilustracion p {
     font-size: 2.9em; }
 
+.main-caballeros .container-contenido .artorias .titulo-artorias {
+  width: 100%;
+  height: 250px;
+  justify-content: center;
+  align-items: center; }
+  .main-caballeros .container-contenido .artorias .titulo-artorias h2 {
+    font-size: 3.5em; }
+
+.main-caballeros .container-contenido .artorias .contenido-descripcion {
+  width: 100%;
+  height: 200px;
+  font-size: 3.2em;
+  justify-content: center;
+  align-items: center; }
+
+.main-caballeros .container-contenido .artorias .descripcion-ilustracion {
+  gap: 10rem;
+  width: 100%;
+  height: 700px;
+  justify-content: center;
+  align-items: center; }
+  .main-caballeros .container-contenido .artorias .descripcion-ilustracion p {
+    font-size: 2.9em; }
+
+.main-caballeros .container-contenido .gough .titulo-gough {
+  width: 100%;
+  height: 250px;
+  justify-content: center;
+  align-items: center; }
+  .main-caballeros .container-contenido .gough .titulo-gough h2 {
+    font-size: 3.5em; }
+
+.main-caballeros .container-contenido .gough .contenido-descripcion {
+  width: 100%;
+  height: 200px;
+  font-size: 3.2em;
+  justify-content: center;
+  align-items: center; }
+
+.main-caballeros .container-contenido .gough .descripcion-ilustracion {
+  gap: 10rem;
+  width: 100%;
+  height: 700px;
+  justify-content: center;
+  align-items: center; }
+  .main-caballeros .container-contenido .gough .descripcion-ilustracion p {
+    font-size: 2.9em; }
+
+.main-caballeros .container-contenido .ciaran .titulo-ciaran {
+  width: 100%;
+  height: 250px;
+  justify-content: center;
+  align-items: center; }
+  .main-caballeros .container-contenido .ciaran .titulo-ciaran h2 {
+    font-size: 3.5em; }
+
+.main-caballeros .container-contenido .ciaran .contenido-descripcion {
+  width: 100%;
+  height: 200px;
+  font-size: 3.2em;
+  justify-content: center;
+  align-items: center; }
+
+.main-caballeros .container-contenido .ciaran .descripcion-ilustracion {
+  gap: 10rem;
+  width: 100%;
+  height: 700px;
+  justify-content: center;
+  align-items: center; }
+  .main-caballeros .container-contenido .ciaran .descripcion-ilustracion p {
+    font-size: 2.9em; }
+
 .main-serpientes .titulo-serpiente article {
   width: 100%;
   height: 200px;
@@ -579,3 +683,12 @@ header {
   align-items: center; }
   .main-serpientes .container-contenido__cuaarticle p {
     font-size: 3.1em; }
+
+.main-solaire .titulo-solaire article {
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  background-color: #100e11; }
+  .main-solaire .titulo-solaire article h1 {
+    font-size: 4.1em; }

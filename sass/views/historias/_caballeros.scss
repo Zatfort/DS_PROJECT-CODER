@@ -69,6 +69,114 @@
 
 
         }
+        .artorias{
+            .titulo-artorias{
+                width: 100%;
+                height: 250px;
+                justify-content: center;
+                align-items: center;
+
+                h2 {
+                    font-size: 3.5em;
+                }
+
+            }
+            .contenido-descripcion {
+                width: 100%;
+                height: 200px;
+                font-size: 3.2em;
+                justify-content: center;
+                align-items: center;
+
+            }
+            .descripcion-ilustracion {
+                gap: 10rem;
+                width: 100%;
+                height: 700px;
+                justify-content: center;
+                align-items: center;
+
+                p {
+                    font-size: 2.9em;
+                }
+
+
+            }
+
+
+
+        }
+        .gough{
+            .titulo-gough{
+                width: 100%;
+                height: 250px;
+                justify-content: center;
+                align-items: center;
+
+                h2 {
+                    font-size: 3.5em;
+                }
+
+            }
+            .contenido-descripcion {
+                width: 100%;
+                height: 200px;
+                font-size: 3.2em;
+                justify-content: center;
+                align-items: center;
+
+            }
+            .descripcion-ilustracion {
+                gap: 10rem;
+                width: 100%;
+                height: 700px;
+                justify-content: center;
+                align-items: center;
+
+                p {
+                    font-size: 2.9em;
+                }
+
+
+            }
+
+
+        }
+        .ciaran{
+            .titulo-ciaran{
+                width: 100%;
+                height: 250px;
+                justify-content: center;
+                align-items: center;
+
+                h2 {
+                    font-size: 3.5em;
+                }
+
+            }
+            .contenido-descripcion {
+                width: 100%;
+                height: 200px;
+                font-size: 3.2em;
+                justify-content: center;
+                align-items: center;
+
+            }
+            .descripcion-ilustracion {
+                gap: 10rem;
+                width: 100%;
+                height: 700px;
+                justify-content: center;
+                align-items: center;
+
+                p {
+                    font-size: 2.9em;
+                }
+
+
+            }
+
+        }
 
 
     }
