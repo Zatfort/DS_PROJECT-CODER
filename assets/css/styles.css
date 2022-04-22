@@ -3,6 +3,9 @@
 .border {
   border-radius: 20px; }
 
+.separador {
+  border-bottom: 1px solid #fde49f; }
+
 .spacing-xlarge {
   padding: xlarge; }
 
@@ -101,6 +104,38 @@ ul {
     width: 100%;
     align-items: center;
     justify-content: space-around; }
+
+.footer-serpientes {
+  background-image: linear-gradient(to top, #434343 0%, #020202 100%);
+  font-size: medium;
+  width: 100%;
+  height: 300px; }
+  .footer-serpientes section {
+    color: #fff;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around; }
+    .footer-serpientes section img {
+      width: 200px;
+      height: 200px; }
+
+.footer-storys {
+  background-image: linear-gradient(to top, #434343 0%, #020202 100%);
+  font-size: medium;
+  width: 100%;
+  height: 300px; }
+  .footer-storys section {
+    color: #fff;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around; }
+    .footer-storys section img {
+      width: 200px;
+      height: 200px; }
 
 /* HEADER & NAVBAR */
 .logo_gif {
@@ -445,6 +480,59 @@ header {
     margin-bottom: 70px;
     margin-top: 15px;
     transition: all 500ms ease-in-out; }
+
+.main-artorias .titulo-artorias article {
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  background-color: #100e11; }
+  .main-artorias .titulo-artorias article h1 {
+    font-size: 4.1em; }
+
+.main-caballeros .titulo-caballeros article {
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  background-color: #100e11; }
+  .main-caballeros .titulo-caballeros article h1 {
+    font-size: 4.1em; }
+
+.main-caballeros .parallax-caballeros {
+  width: 100%;
+  height: 1000px;
+  background-image: url(../../../assets/images/caballero.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; }
+
+.main-caballeros .container-contenido img {
+  border-radius: 20px; }
+
+.main-caballeros .container-contenido .ornstein .titulo-ornstein {
+  width: 100%;
+  height: 250px;
+  justify-content: center;
+  align-items: center; }
+  .main-caballeros .container-contenido .ornstein .titulo-ornstein h2 {
+    font-size: 3.5em; }
+
+.main-caballeros .container-contenido .ornstein .contenido-descripcion {
+  width: 100%;
+  height: 200px;
+  font-size: 3.2em;
+  justify-content: center;
+  align-items: center; }
+
+.main-caballeros .container-contenido .ornstein .descripcion-ilustracion {
+  gap: 10rem;
+  width: 100%;
+  height: 700px;
+  justify-content: center;
+  align-items: center; }
+  .main-caballeros .container-contenido .ornstein .descripcion-ilustracion p {
+    font-size: 2.9em; }
 
 .main-serpientes .titulo-serpiente article {
   width: 100%;

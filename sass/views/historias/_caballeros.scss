@@ -1,0 +1,76 @@
+.main-caballeros {
+    .titulo-caballeros {
+        article {
+            width: 100%;
+            height: 200px;
+            justify-content: center;
+            align-items: center;
+
+            background-color: #100e11;
+
+            h1 {
+                font-size: 4.1em;
+            }
+        }
+
+    }
+
+    .parallax-caballeros {
+        width: 100%;
+        height: 1000px;
+        background-image: url(../../../assets/images/caballero.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+
+    .container-contenido {
+
+        img {
+            border-radius: 20px;
+
+        }
+
+        .ornstein {
+            .titulo-ornstein {
+                width: 100%;
+                height: 250px;
+                justify-content: center;
+                align-items: center;
+
+                h2 {
+                    font-size: 3.5em;
+                }
+
+            }
+
+            .contenido-descripcion {
+                width: 100%;
+                height: 200px;
+                font-size: 3.2em;
+                justify-content: center;
+                align-items: center;
+
+            }
+
+            .descripcion-ilustracion {
+                gap: 10rem;
+                width: 100%;
+                height: 700px;
+                justify-content: center;
+                align-items: center;
+
+                p {
+                    font-size: 2.9em;
+                }
+
+
+            }
+
+
+        }
+
+
+    }
+
+}
