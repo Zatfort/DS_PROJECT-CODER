@@ -36,32 +36,31 @@
     }
 
 
-
-
-    @media(max-width:800px) {
-
-        img {
-            width: 100%;
-        }
     
-        .row {
-            display: flex;
-            padding: 10px;
-        }
+
     
-        .column {
+    @media screen and(max-width:800px) {
+        .column{
+            flex: 50%;
+
+        }
+
+        
+        
+        
+    }
+    
+    
+    @media(max-width:600px) {
+        .column{
             flex: 100%;
-            padding: 10px;
-    
-            img {
-                margin-top: 10px;
-            }
+
         }
+
+        
     
     
     }
-
-
 
 
 

@@ -210,6 +210,34 @@ header {
       header .menu .menu__item .menu__link--active {
         border-bottom: 2px solid white; }
 
+@media screen and (max-width: 600px) {
+  header {
+    width: 600px;
+    height: 100%; }
+    header ul {
+      font-size: 0.6em; }
+    header picture a .logo_gif {
+      width: 200px;
+      height: 75px; } }
+
+@media screen and (max-width: 480px) {
+  header {
+    width: 480px;
+    height: 100%; }
+    header ul {
+      font-size: 1.0em; }
+    header picture {
+      display: none; } }
+
+@media screen and (max-width: 360px) {
+  header {
+    width: 360px;
+    height: 100%; }
+    header ul {
+      font-size: 0.6em; }
+    header picture {
+      display: none; } }
+
 .parallax-destino {
   width: 100%;
   height: 750px;
@@ -408,17 +436,13 @@ header {
   .main_arte .column img {
     margin-top: 10px; }
 
-@media (max-width: 800px) {
-  .main_arte img {
-    width: 100%; }
-  .main_arte .row {
-    display: flex;
-    padding: 10px; }
+@media screen and (max-width: 800px) {
   .main_arte .column {
-    flex: 100%;
-    padding: 10px; }
-    .main_arte .column img {
-      margin-top: 10px; } }
+    flex: 50%; } }
+
+@media (max-width: 600px) {
+  .main_arte .column {
+    flex: 100%; } }
 
 /* ----index---- */
 .parallax-completo {

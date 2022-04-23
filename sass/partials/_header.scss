@@ -46,3 +46,50 @@
 
     
 }
+@media screen and (max-width: 600px){
+    header{
+        width: 600px;
+        height: 100%;
+        ul{
+            font-size: 0.6em;
+        }
+        picture{
+            a{
+                .logo_gif{
+                    width: 200px;
+                    height: 75px;
+                }
+            }
+        }
+        
+    }
+
+}
+
+@media screen and (max-width: 480px){
+    header{
+        width: 480px;
+        height: 100%;
+        ul{
+            font-size: 1.0em;
+        }
+        picture{
+            display: none;
+        }
+    }
+
+}
+
+@media screen and (max-width: 360px){
+    header{
+        width: 360px;
+        height: 100%;
+        ul{
+            font-size: 0.6em;
+        }
+        picture{
+            display: none;
+        }
+    }
+
+}
