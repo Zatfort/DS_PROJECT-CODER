@@ -374,6 +374,15 @@ header {
   gap: 10rem;
   font-size: 2.9em; }
 
+.main_arte .titulo-arte article {
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  background-color: #100e11; }
+  .main_arte .titulo-arte article h1 {
+    font-size: 4.1em; }
+
 /* ----index---- */
 .parallax-completo {
   width: 100%;
@@ -692,3 +701,19 @@ header {
   background-color: #100e11; }
   .main-solaire .titulo-solaire article h1 {
     font-size: 4.1em; }
+
+.main-solaire .contenido-descripcion {
+  width: 100%;
+  height: 200px;
+  font-size: 3.2em;
+  justify-content: center;
+  align-items: center; }
+
+.main-solaire .descripcion-ilustracion {
+  gap: 10rem;
+  width: 100%;
+  height: 700px;
+  justify-content: center;
+  align-items: center; }
+  .main-solaire .descripcion-ilustracion p {
+    font-size: 2.9em; }
