@@ -1,4 +1,4 @@
-.main_arte{
+.main_arte {
     .titulo-arte {
         article {
             width: 100%;
@@ -15,4 +15,65 @@
 
     }
 
+
+    img {
+        width: 100%;
+    }
+
+    .row {
+        flex-wrap: wrap;
+        display: flex;
+        padding: 10px;
+    }
+
+    .column {
+        flex: 25%;
+        padding: 10px;
+
+        img {
+            margin-top: 10px;
+        }
+    }
+
+
+
+
+    @media(max-width:800px) {
+
+        img {
+            width: 100%;
+        }
+    
+        .row {
+            display: flex;
+            padding: 10px;
+        }
+    
+        .column {
+            flex: 100%;
+            padding: 10px;
+    
+            img {
+                margin-top: 10px;
+            }
+        }
+    
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+

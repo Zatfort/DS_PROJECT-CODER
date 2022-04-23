@@ -169,6 +169,17 @@ ul {
       width: 200px;
       height: 200px; }
 
+.footer_galeria {
+  background-image: linear-gradient(to top, #434343 0%, #020202 100%);
+  font-size: medium;
+  width: 100%;
+  height: 300px; }
+  .footer_galeria section {
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around; }
+
 /* HEADER & NAVBAR */
 .logo_gif {
   width: 250px;
@@ -382,6 +393,32 @@ header {
   background-color: #100e11; }
   .main_arte .titulo-arte article h1 {
     font-size: 4.1em; }
+
+.main_arte img {
+  width: 100%; }
+
+.main_arte .row {
+  flex-wrap: wrap;
+  display: flex;
+  padding: 10px; }
+
+.main_arte .column {
+  flex: 25%;
+  padding: 10px; }
+  .main_arte .column img {
+    margin-top: 10px; }
+
+@media (max-width: 800px) {
+  .main_arte img {
+    width: 100%; }
+  .main_arte .row {
+    display: flex;
+    padding: 10px; }
+  .main_arte .column {
+    flex: 100%;
+    padding: 10px; }
+    .main_arte .column img {
+      margin-top: 10px; } }
 
 /* ----index---- */
 .parallax-completo {
