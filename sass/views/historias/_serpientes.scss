@@ -65,3 +65,578 @@
 
 
 }
+
+
+
+
+@media screen and (max-width:600px){
+    .main-serpientes {
+        width: 600px;
+        .titulo-serpiente {
+            article {
+                width: 600px;
+                height: 100px;
+                justify-content: center;
+                align-items: center;
+    
+                background-color: #100e11;
+    
+                h1 {
+                    font-size: 2.4em;
+                }
+            }
+    
+        }
+        .container-contenido{
+            img{
+                border-radius: 20px;
+    
+            }
+            &__priarticle{
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 300px;
+                p{
+                    font-size: 2.1em
+                }
+            }
+            &__secarticle{
+                flex-wrap: wrap;
+                width: 100%;
+                height: 700px;
+                justify-content: center;
+                align-items: center;
+                p{
+                    width: 100%;
+                    height: 200px;
+                    font-size: 2.1em;
+                }
+                img{
+                    width: 100%;
+                    height: 300px;
+                }
+    
+            }
+            &__terarticle{
+                flex-wrap: wrap;
+                gap: 20rem;
+                width: 100%;
+                height: 800px;
+                justify-content: center;
+                align-items: center;
+                p{
+                    width: 600px;
+                    height: 200px;
+                    font-size: 2.1em;
+                }
+                img{
+                    width: 100%;
+                    height: 300px;
+                }
+    
+            }
+            &__cuaarticle{
+                flex-wrap: wrap;
+                gap: 10rem;
+                width: 100%;
+                height: 800px;
+                justify-content: center;
+                align-items: center;
+                p{
+                    width: 600px;
+                    height: 200px;
+                    font-size: 2.1em;
+                }
+                img{
+                    width: 100%;
+                    height: 300px;
+                }
+    
+            }
+    
+        }
+    
+    
+    }
+
+}
+
+
+@media screen and (max-width:480px){
+    .main-serpientes {
+        width: 480px;
+        .titulo-serpiente {
+            article {
+                width: 480px;
+                height: 100px;
+                justify-content: center;
+                align-items: center;
+    
+                background-color: #100e11;
+    
+                h1 {
+                    font-size: 2.1em;
+                }
+            }
+    
+        }
+        .container-contenido{
+            img{
+                border-radius: 20px;
+    
+            }
+            &__priarticle{
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 250px;
+                p{
+                    font-size: 1.8em
+                }
+            }
+            &__secarticle{
+                flex-wrap: wrap;
+                width: 100%;
+                height: 700px;
+                justify-content: center;
+                align-items: center;
+                p{
+                    width: 100%;
+                    height: 200px;
+                    font-size: 1.8em;
+                }
+                img{
+                    width: 100%;
+                    height: 300px;
+                }
+    
+            }
+            &__terarticle{
+                flex-wrap: wrap;
+                gap: 20rem;
+                width: 100%;
+                height: 800px;
+                justify-content: center;
+                align-items: center;
+                p{
+                    width: 480px;
+                    height: 200px;
+                    font-size: 1.8em;
+                }
+                img{
+                    width: 100%;
+                    height: 300px;
+                }
+    
+            }
+            &__cuaarticle{
+                flex-wrap: wrap;
+                gap: 10rem;
+                width: 100%;
+                height: 800px;
+                justify-content: center;
+                align-items: center;
+                p{
+                    width: 480px;
+                    height: 100px;
+                    font-size: 1.8em;
+                }
+                img{
+                    width: 100%;
+                    height: 300px;
+                }
+    
+            }
+    
+        }
+    
+    
+    }
+
+}
+
+
+
+@media screen and (max-width: 414px){
+    .main-serpientes {
+        width: 414px;
+        .titulo-serpiente {
+            article {
+                width: 414px;
+                height: 100px;
+                justify-content: center;
+                align-items: center;
+    
+                background-color: #100e11;
+    
+                h1 {
+                    font-size: 1.8em;
+                }
+            }
+    
+        }
+        .container-contenido{
+            img{
+                border-radius: 20px;
+    
+            }
+            &__priarticle{
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 200px;
+                p{
+                    font-size: 1.5em
+                }
+            }
+            &__secarticle{
+                flex-wrap: wrap;
+                width: 100%;
+                height: 600px;
+                justify-content: center;
+                align-items: center;
+                p{
+                    width: 100%;
+                    height: 200px;
+                    font-size: 1.5em;
+                }
+                img{
+                    width: 100%;
+                    height: 300px;
+                }
+    
+            }
+            &__terarticle{
+                flex-wrap: wrap;
+                gap: 20rem;
+                width: 100%;
+                height: 750px;
+                justify-content: center;
+                align-items: center;
+                p{
+                    width: 414px;
+                    height: 200px;
+                    font-size: 1.5em;
+                }
+                img{
+                    width: 100%;
+                    height: 300px;
+                }
+    
+            }
+            &__cuaarticle{
+                flex-wrap: wrap;
+                gap: 10rem;
+                width: 100%;
+                height: 750px;
+                justify-content: center;
+                align-items: center;
+                p{
+                    width: 414px;
+                    height: 100px;
+                    font-size: 1.5em;
+                }
+                img{
+                    width: 100%;
+                    height: 300px;
+                }
+    
+            }
+    
+        }
+    
+    
+    }
+
+
+}
+@media screen and (max-width: 375px){
+    .main-serpientes {
+        width: 375px;
+        .titulo-serpiente {
+            article {
+                width: 375px;
+                height: 100px;
+                justify-content: center;
+                align-items: center;
+    
+                background-color: #100e11;
+    
+                h1 {
+                    font-size: 1.5em;
+                }
+            }
+    
+        }
+        .container-contenido{
+            img{
+                border-radius: 20px;
+    
+            }
+            &__priarticle{
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 200px;
+                p{
+                    font-size: 1.4em
+                }
+            }
+            &__secarticle{
+                flex-wrap: wrap;
+                width: 100%;
+                height: 600px;
+                justify-content: center;
+                align-items: center;
+                p{
+                    width: 100%;
+                    height: 200px;
+                    font-size: 1.4em;
+                }
+                img{
+                    width: 100%;
+                    height: 300px;
+                }
+    
+            }
+            &__terarticle{
+                flex-wrap: wrap;
+                gap: 20rem;
+                width: 100%;
+                height: 750px;
+                justify-content: center;
+                align-items: center;
+                p{
+                    width: 375px;
+                    height: 200px;
+                    font-size: 1.4em;
+                }
+                img{
+                    width: 100%;
+                    height: 300px;
+                }
+    
+            }
+            &__cuaarticle{
+                flex-wrap: wrap;
+                gap: 10rem;
+                width: 100%;
+                height: 750px;
+                justify-content: center;
+                align-items: center;
+                p{
+                    width: 375px;
+                    height: 100px;
+                    font-size: 1.4em;
+                }
+                img{
+                    width: 100%;
+                    height: 300px;
+                }
+    
+            }
+    
+        }
+    
+    
+    }
+
+
+}
+@media screen and (max-width: 360px){
+    .main-serpientes {
+        width: 360px;
+        .titulo-serpiente {
+            article {
+                width: 360px;
+                height: 100px;
+                justify-content: center;
+                align-items: center;
+    
+                background-color: #100e11;
+    
+                h1 {
+                    font-size: 1.5em;
+                }
+            }
+    
+        }
+        .container-contenido{
+            img{
+                border-radius: 20px;
+    
+            }
+            &__priarticle{
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 200px;
+                p{
+                    font-size: 1.3em
+                }
+            }
+            &__secarticle{
+                flex-wrap: wrap;
+                width: 100%;
+                height: 600px;
+                justify-content: center;
+                align-items: center;
+                p{
+                    width: 100%;
+                    height: 200px;
+                    font-size: 1.3em;
+                    padding-left: 2px;
+                    padding-right: 2px;
+                }
+                img{
+                    width: 100%;
+                    height: 300px;
+                }
+    
+            }
+            &__terarticle{
+                flex-wrap: wrap;
+                gap: 20rem;
+                width: 100%;
+                height: 750px;
+                justify-content: center;
+                align-items: center;
+                p{
+                    width: 375px;
+                    height: 200px;
+                    font-size: 1.3em;
+                    padding-left: 2px;
+                    padding-right: 2px;
+                }
+                img{
+                    width: 100%;
+                    height: 300px;
+                }
+    
+            }
+            &__cuaarticle{
+                flex-wrap: wrap;
+                gap: 10rem;
+                width: 100%;
+                height: 750px;
+                justify-content: center;
+                align-items: center;
+                p{
+                    width: 360px;
+                    height: 100px;
+                    font-size: 1.3em;
+                    padding-left: 2px;
+                    padding-right: 2px;
+                }
+                img{
+                    width: 100%;
+                    height: 300px;
+                }
+    
+            }
+    
+        }
+    
+    
+    }
+
+}
+@media screen and (max-width: 320px){
+    .main-serpientes {
+        width: 320px;
+        .titulo-serpiente {
+            article {
+                width: 320px;
+                height: 100px;
+                justify-content: center;
+                align-items: center;
+    
+                background-color: #100e11;
+    
+                h1 {
+                    font-size: 1.4em;
+                }
+            }
+    
+        }
+        .container-contenido{
+            img{
+                border-radius: 20px;
+    
+            }
+            &__priarticle{
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 200px;
+                p{
+                    font-size: 1.2em
+                }
+            }
+            &__secarticle{
+                flex-wrap: wrap;
+                width: 100%;
+                height: 600px;
+                justify-content: center;
+                align-items: center;
+                p{
+                    width: 100%;
+                    height: 200px;
+                    font-size: 1.2em;
+                    padding-left: 2px;
+                    padding-right: 2px;
+                }
+                img{
+                    width: 100%;
+                    height: 300px;
+                }
+    
+            }
+            &__terarticle{
+                flex-wrap: wrap;
+                gap: 20rem;
+                width: 100%;
+                height: 750px;
+                justify-content: center;
+                align-items: center;
+                p{
+                    width: 320px;
+                    height: 200px;
+                    font-size: 1.2em;
+                    padding-left: 2px;
+                    padding-right: 2px;
+                }
+                img{
+                    width: 100%;
+                    height: 300px;
+                }
+    
+            }
+            &__cuaarticle{
+                flex-wrap: wrap;
+                gap: 10rem;
+                width: 100%;
+                height: 750px;
+                justify-content: center;
+                align-items: center;
+                p{
+                    width: 320px;
+                    height: 100px;
+                    font-size: 1.2em;
+                    padding-left: 2px;
+                    padding-right: 2px;
+                }
+                img{
+                    width: 100%;
+                    height: 300px;
+                }
+    
+            }
+    
+        }
+    
+    
+    }
+
+}

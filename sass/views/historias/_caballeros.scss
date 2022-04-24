@@ -69,8 +69,9 @@
 
 
         }
-        .artorias{
-            .titulo-artorias{
+
+        .artorias {
+            .titulo-artorias {
                 width: 100%;
                 height: 250px;
                 justify-content: center;
@@ -81,6 +82,7 @@
                 }
 
             }
+
             .contenido-descripcion {
                 width: 100%;
                 height: 200px;
@@ -89,6 +91,7 @@
                 align-items: center;
 
             }
+
             .descripcion-ilustracion {
                 gap: 10rem;
                 width: 100%;
@@ -106,8 +109,9 @@
 
 
         }
-        .gough{
-            .titulo-gough{
+
+        .gough {
+            .titulo-gough {
                 width: 100%;
                 height: 250px;
                 justify-content: center;
@@ -118,6 +122,7 @@
                 }
 
             }
+
             .contenido-descripcion {
                 width: 100%;
                 height: 200px;
@@ -126,6 +131,7 @@
                 align-items: center;
 
             }
+
             .descripcion-ilustracion {
                 gap: 10rem;
                 width: 100%;
@@ -142,8 +148,9 @@
 
 
         }
-        .ciaran{
-            .titulo-ciaran{
+
+        .ciaran {
+            .titulo-ciaran {
                 width: 100%;
                 height: 250px;
                 justify-content: center;
@@ -154,6 +161,7 @@
                 }
 
             }
+
             .contenido-descripcion {
                 width: 100%;
                 height: 200px;
@@ -162,6 +170,7 @@
                 align-items: center;
 
             }
+
             .descripcion-ilustracion {
                 gap: 10rem;
                 width: 100%;
@@ -181,4 +190,1350 @@
 
     }
 
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .main-caballeros {
+        width: 600px;
+
+        .titulo-caballeros {
+            article {
+                width: 100%;
+                height: 100px;
+                justify-content: center;
+                align-items: center;
+
+                background-color: #100e11;
+
+                h1 {
+                    font-size: 3.1em;
+                }
+            }
+
+        }
+
+        .parallax-caballeros {
+            width: 100%;
+            height: 800px;
+            background-image: url(../../../assets/images/caballero.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        .container-contenido {
+
+            img {
+                border-radius: 20px;
+
+            }
+
+            .ornstein {
+                .titulo-ornstein {
+                    width: 100%;
+                    height: 250px;
+                    justify-content: center;
+                    align-items: center;
+
+                    h2 {
+                        font-size: 2.5em;
+                    }
+
+                }
+
+                .contenido-descripcion {
+                    width: 100%;
+                    height: 200px;
+                    font-size: 2.2em;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+
+                .descripcion-ilustracion {
+                    flex-wrap: wrap;
+                    gap: 10rem;
+                    width: 600px;
+                    height: 800px;
+                    justify-content: center;
+                    align-items: center;
+
+                    p {
+                        font-size: 2.2em;
+                    }
+
+                    img {
+                        width: 100%;
+                        height: 250px;
+                    }
+
+
+                }
+
+
+            }
+
+            .artorias {
+                .titulo-artorias {
+                    width: 600px;
+                    height: 250px;
+                    justify-content: center;
+                    align-items: center;
+
+                    h2 {
+                        font-size: 2.5em;
+                    }
+
+                }
+
+                .contenido-descripcion {
+                    flex-wrap: wrap;
+                    width: 100%;
+                    height: 200px;
+                    font-size: 2.2em;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+
+                .descripcion-ilustracion {
+                    flex-wrap: wrap;
+                    gap: 10rem;
+                    width: 100%;
+                    height: 700px;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+                        width: 100%;
+                        height: 300px;
+                    }
+
+                    p {
+                        font-size: 2.2em;
+                    }
+
+
+                }
+
+
+
+            }
+
+            .gough {
+                .titulo-gough {
+                    width: 100%;
+                    height: 250px;
+                    justify-content: center;
+                    align-items: center;
+
+                    h2 {
+                        font-size: 2.5em;
+                    }
+
+                }
+
+                .contenido-descripcion {
+
+                    width: 100%;
+                    height: 200px;
+                    font-size: 2.2em;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+
+                .descripcion-ilustracion {
+                    flex-wrap: wrap;
+                    gap: 10rem;
+                    width: 100%;
+                    height: 700px;
+                    justify-content: center;
+                    align-items: center;
+
+                    p {
+                        font-size: 2.2em;
+                    }
+
+                    img {
+                        width: 100%;
+                        height: 250px;
+                    }
+
+
+                }
+
+
+            }
+
+            .ciaran {
+                .titulo-ciaran {
+                    width: 600px;
+                    height: 250px;
+                    justify-content: center;
+                    align-items: center;
+
+                    h2 {
+                        font-size: 2.5em;
+                    }
+
+                }
+
+                .contenido-descripcion {
+                    width: 600px;
+                    height: 200px;
+                    font-size: 2.2em;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+
+                .descripcion-ilustracion {
+                    flex-wrap: wrap;
+                    gap: 10rem;
+                    width: 100%;
+                    height: 700px;
+                    justify-content: center;
+                    align-items: center;
+
+                    p {
+                        font-size: 2.2em;
+                    }
+
+                    img {
+                        width: 100%;
+                        height: 250px;
+                    }
+
+
+                }
+
+            }
+
+
+        }
+
+    }
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+    .main-caballeros {
+        width: 480px;
+
+        .titulo-caballeros {
+            article {
+                width: 100%;
+                height: 100px;
+                justify-content: center;
+                align-items: center;
+
+                background-color: #100e11;
+
+                h1 {
+                    font-size: 2.1em;
+                }
+            }
+
+        }
+
+        .parallax-caballeros {
+            width: 100%;
+            height: 800px;
+            background-image: url(../../../assets/images/caballero.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        .container-contenido {
+
+            img {
+                border-radius: 20px;
+
+            }
+
+            .ornstein {
+                .titulo-ornstein {
+                    width: 480px;
+                    height: 250px;
+                    justify-content: center;
+                    align-items: center;
+
+                    h2 {
+                        font-size: 2.5em;
+                    }
+
+                }
+
+                .contenido-descripcion {
+                    width: 100%;
+                    height: 200px;
+                    font-size: 1.5em;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+
+                .descripcion-ilustracion {
+                    flex-wrap: wrap;
+                    gap: 10rem;
+                    width: 480px;
+                    height: 800px;
+                    justify-content: center;
+                    align-items: center;
+
+                    p {
+                        font-size: 1.5em;
+                    }
+
+                    img {
+                        width: 100%;
+                        height: 250px;
+                    }
+
+
+                }
+
+
+            }
+
+            .artorias {
+                .titulo-artorias {
+                    width: 480px;
+                    height: 250px;
+
+
+                    h2 {
+                        font-size: 2.5em;
+                    }
+
+                }
+
+                .contenido-descripcion {
+                    flex-wrap: wrap;
+                    width: 480px;
+                    height: 200px;
+                    font-size: 1.5em;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+
+                .descripcion-ilustracion {
+                    flex-wrap: wrap;
+                    gap: 10rem;
+                    width: 100%;
+                    height: 700px;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+                        width: 100%;
+                        height: 300px;
+                    }
+
+                    p {
+                        font-size: 1.5em;
+                    }
+
+
+                }
+
+
+
+            }
+
+            .gough {
+                .titulo-gough {
+                    width: 480px;
+                    height: 250px;
+                    justify-content: center;
+                    align-items: center;
+
+                    h2 {
+                        font-size: 2.5em;
+                    }
+
+                }
+
+                .contenido-descripcion {
+
+                    width: 480px;
+                    height: 200px;
+                    font-size: 1.5em;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+
+                .descripcion-ilustracion {
+                    flex-wrap: wrap;
+                    gap: 10rem;
+                    width: 480px;
+                    height: 700px;
+                    justify-content: center;
+                    align-items: center;
+
+                    p {
+                        font-size: 1.5em;
+                    }
+
+                    img {
+                        width: 100%;
+                        height: 250px;
+                    }
+
+
+                }
+
+
+            }
+
+            .ciaran {
+                .titulo-ciaran {
+                    width: 480px;
+                    height: 250px;
+                    justify-content: center;
+                    align-items: center;
+
+                    h2 {
+                        font-size: 2.5em;
+                    }
+
+                }
+
+                .contenido-descripcion {
+                    width: 480px;
+                    height: 200px;
+                    font-size: 1.5em;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+
+                .descripcion-ilustracion {
+                    flex-wrap: wrap;
+                    gap: 10rem;
+                    width: 480px;
+                    height: 700px;
+                    justify-content: center;
+                    align-items: center;
+
+                    p {
+                        font-size: 1.5em;
+                    }
+
+                    img {
+                        width: 100%;
+                        height: 250px;
+                    }
+
+
+                }
+
+            }
+
+
+        }
+
+    }
+}
+
+
+@media screen and (max-width: 414px) {
+
+    .main-caballeros {
+        width: 414px;
+
+        .titulo-caballeros {
+            article {
+                width: 414px;
+                height: 100px;
+                justify-content: center;
+                align-items: center;
+
+                background-color: #100e11;
+
+                h1 {
+                    font-size: 2.1em;
+                }
+            }
+
+        }
+
+        .parallax-caballeros {
+            width: 100%;
+            height: 414px;
+            background-image: url(../../../assets/images/caballero.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        .container-contenido {
+
+            img {
+                border-radius: 20px;
+
+            }
+
+            .ornstein {
+                .titulo-ornstein {
+                    width: 414px;
+                    height: 250px;
+                    justify-content: center;
+                    align-items: center;
+
+                    h2 {
+                        font-size: 2.0em;
+                    }
+
+                }
+
+                .contenido-descripcion {
+                    width: 100%;
+                    height: 200px;
+                    font-size: 1.2em;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+
+                .descripcion-ilustracion {
+                    flex-wrap: wrap;
+                    gap: 10rem;
+                    width: 414px;
+                    height: 800px;
+                    justify-content: center;
+                    align-items: center;
+
+                    p {
+                        font-size: 1.2em;
+                    }
+
+                    img {
+                        width: 100%;
+                        height: 250px;
+                    }
+
+
+                }
+
+
+            }
+
+            .artorias {
+                .titulo-artorias {
+                    width: 414px;
+                    height: 250px;
+
+
+                    h2 {
+                        font-size: 2.0em;
+                    }
+
+                }
+
+                .contenido-descripcion {
+                    flex-wrap: wrap;
+                    width: 414px;
+                    height: 200px;
+                    font-size: 1.2em;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+
+                .descripcion-ilustracion {
+                    flex-wrap: wrap;
+                    gap: 10rem;
+                    width: 100%;
+                    height: 700px;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+                        width: 100%;
+                        height: 300px;
+                    }
+
+                    p {
+                        font-size: 1.2em;
+                    }
+
+
+                }
+
+
+
+            }
+
+            .gough {
+                .titulo-gough {
+                    width: 414px;
+                    height: 250px;
+
+
+                    h2 {
+                        font-size: 2.0em;
+                    }
+
+                }
+
+                .contenido-descripcion {
+                    flex-wrap: wrap;
+                    width: 414px;
+                    height: 200px;
+                    font-size: 1.2em;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+
+                .descripcion-ilustracion {
+                    flex-wrap: wrap;
+                    gap: 10rem;
+                    width: 100%;
+                    height: 700px;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+                        width: 100%;
+                        height: 300px;
+                    }
+
+                    p {
+                        font-size: 1.2em;
+                    }
+
+
+                }
+
+
+            }
+
+            .ciaran {
+                .titulo-ciaran {
+                    width: 414px;
+                    height: 250px;
+
+
+                    h2 {
+                        font-size: 2.0em;
+                    }
+
+
+                }
+
+                .contenido-descripcion {
+                    flex-wrap: wrap;
+                    width: 414px;
+                    height: 200px;
+                    font-size: 1.2em;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+
+                .descripcion-ilustracion {
+                    flex-wrap: wrap;
+                    gap: 10rem;
+                    width: 100%;
+                    height: 700px;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+                        width: 100%;
+                        height: 300px;
+                    }
+
+                    p {
+                        font-size: 1.2em;
+                    }
+
+
+                }
+            }
+
+
+        }
+
+    }
+}
+
+
+
+
+@media screen and (max-width: 375px) {
+
+    .main-caballeros {
+        width: 375px;
+
+        .titulo-caballeros {
+            article {
+                width: 375px;
+                height: 100px;
+                justify-content: center;
+                align-items: center;
+
+                background-color: #100e11;
+
+                h1 {
+                    font-size: 2.1em;
+                }
+            }
+
+        }
+
+        .parallax-caballeros {
+            width: 100%;
+            height: 414px;
+            background-image: url(../../../assets/images/caballero.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        .container-contenido {
+
+            img {
+                border-radius: 20px;
+
+            }
+
+            .ornstein {
+                .titulo-ornstein {
+                    width: 375px;
+                    height: 250px;
+                    justify-content: center;
+                    align-items: center;
+
+                    h2 {
+                        font-size: 1.5em;
+                    }
+
+                }
+
+                .contenido-descripcion {
+                    width: 100%;
+                    height: 200px;
+                    font-size: 1.2em;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+
+                .descripcion-ilustracion {
+                    flex-wrap: wrap;
+                    gap: 10rem;
+                    width: 375px;
+                    height: 800px;
+                    justify-content: center;
+                    align-items: center;
+
+                    p {
+                        font-size: 1.2em;
+                    }
+
+                    img {
+                        width: 100%;
+                        height: 250px;
+                    }
+
+
+                }
+
+
+            }
+
+            .artorias {
+                .titulo-artorias {
+                    width: 375px;
+                    height: 250px;
+                    justify-content: center;
+                    align-items: center;
+
+                    h2 {
+                        font-size: 1.5em;
+                    }
+
+                }
+
+                .contenido-descripcion {
+                    width: 100%;
+                    height: 200px;
+                    font-size: 1.2em;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+
+                .descripcion-ilustracion {
+                    flex-wrap: wrap;
+                    gap: 10rem;
+                    width: 375px;
+                    height: 800px;
+                    justify-content: center;
+                    align-items: center;
+
+                    p {
+                        font-size: 1.2em;
+                    }
+
+                    img {
+                        width: 100%;
+                        height: 250px;
+                    }
+
+
+                }
+
+
+
+            }
+
+            .gough {
+                .titulo-gough {
+                    width: 375px;
+                    height: 250px;
+                    justify-content: center;
+                    align-items: center;
+
+                    h2 {
+                        font-size: 1.5em;
+                    }
+                }
+
+                .contenido-descripcion {
+                    width: 100%;
+                    height: 200px;
+                    font-size: 1.2em;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+
+                .descripcion-ilustracion {
+                    flex-wrap: wrap;
+                    gap: 10rem;
+                    width: 375px;
+                    height: 800px;
+                    justify-content: center;
+                    align-items: center;
+
+                    p {
+                        font-size: 1.2em;
+                    }
+
+                    img {
+                        width: 100%;
+                        height: 250px;
+                    }
+
+
+                }
+
+
+            }
+
+            .ciaran {
+                .titulo-ciaran {
+                    width: 375px;
+                    height: 250px;
+                    justify-content: center;
+                    align-items: center;
+
+                    h2 {
+                        font-size: 1.5em;
+                    }
+
+                }
+
+                .contenido-descripcion {
+                    width: 100%;
+                    height: 200px;
+                    font-size: 1.2em;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+
+                .descripcion-ilustracion {
+                    flex-wrap: wrap;
+                    gap: 10rem;
+                    width: 375px;
+                    height: 800px;
+                    justify-content: center;
+                    align-items: center;
+
+                    p {
+                        font-size: 1.2em;
+                    }
+
+                    img {
+                        width: 100%;
+                        height: 250px;
+                    }
+
+
+                }
+            }
+
+
+        }
+
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+
+    .main-caballeros {
+        width: 360px;
+
+        .titulo-caballeros {
+            article {
+                width: 360px;
+                height: 100px;
+                justify-content: center;
+                align-items: center;
+
+                background-color: #100e11;
+
+                h1 {
+                    font-size: 2.1em;
+                }
+            }
+
+        }
+
+        .parallax-caballeros {
+            width: 100%;
+            height: 414px;
+            background-image: url(../../../assets/images/caballero.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        .container-contenido {
+
+            img {
+                border-radius: 20px;
+
+            }
+
+            .ornstein {
+                .titulo-ornstein {
+                    width: 360px;
+                    height: 250px;
+                    justify-content: center;
+                    align-items: center;
+
+                    h2 {
+                        font-size: 1.7em;
+                    }
+
+                }
+
+                .contenido-descripcion {
+                    width: 100%;
+                    height: 200px;
+                    font-size: 1.1em;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+
+                .descripcion-ilustracion {
+                    flex-wrap: wrap;
+                    gap: 10rem;
+                    width: 360px;
+                    height: 800px;
+                    justify-content: center;
+                    align-items: center;
+
+                    p {
+                        font-size: 1.1em;
+                    }
+
+                    img {
+                        width: 100%;
+                        height: 250px;
+                    }
+
+
+                }
+
+
+            }
+
+            .artorias {
+                .titulo-artorias {
+                    width: 360px;
+                    height: 250px;
+                    justify-content: center;
+                    align-items: center;
+
+                    h2 {
+                        font-size: 1.7em;
+                    }
+
+                }
+
+                .contenido-descripcion {
+                    width: 100%;
+                    height: 200px;
+                    font-size: 1.1em;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+
+                .descripcion-ilustracion {
+                    flex-wrap: wrap;
+                    gap: 10rem;
+                    width: 360px;
+                    height: 800px;
+                    justify-content: center;
+                    align-items: center;
+
+                    p {
+                        font-size: 1.1em;
+                    }
+
+                    img {
+                        width: 100%;
+                        height: 250px;
+                    }
+
+
+                }
+
+
+
+            }
+
+            .gough {
+                .titulo-gough {
+                    width: 360px;
+                    height: 100px;
+                    justify-content: center;
+                    align-items: center;
+
+                    h2 {
+                        font-size: 1.7em;
+                    }
+                }
+
+                .contenido-descripcion {
+                    width: 100%;
+                    height: 100px;
+                    font-size: 1.1em;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+
+                .descripcion-ilustracion {
+                    flex-wrap: wrap;
+                    gap: 10rem;
+                    width: 360px;
+                    height: 500px;
+                    justify-content: center;
+                    align-items: center;
+
+                    p {
+                        font-size: 1.1em;
+                    }
+
+                    img {
+                        width: 100%;
+                        height: 250px;
+                    }
+
+
+                }
+
+
+            }
+
+            .ciaran {
+                .titulo-ciaran {
+                    width: 360px;
+                    height: 150px;
+                    justify-content: center;
+                    align-items: center;
+
+                    h2 {
+                        font-size: 1.7em;
+                    }
+
+                }
+
+                .contenido-descripcion {
+                    width: 100%;
+                    height: 100px;
+                    font-size: 1.1em;
+                    justify-content: center;
+                    align-items: center;
+
+
+                }
+
+                .descripcion-ilustracion {
+                    flex-wrap: wrap;
+                    gap: 10rem;
+                    width: 360px;
+                    height: 500px;
+                    justify-content: center;
+                    align-items: center;
+
+                    p {
+                        font-size: 1.1em;
+                    }
+
+                    img {
+                        width: 100%;
+                        height: 250px;
+                    }
+
+
+                }
+            }
+
+
+        }
+
+    }
+}
+
+
+
+@media screen and (max-width: 320px) {
+
+    .main-caballeros {
+        width: 320px;
+
+        .titulo-caballeros {
+            article {
+                width: 320px;
+                height: 100px;
+                justify-content: center;
+                align-items: center;
+
+                background-color: #100e11;
+
+                h1 {
+                    font-size: 2.0em;
+                }
+            }
+
+        }
+
+        .parallax-caballeros {
+            width: 100%;
+            height: 414px;
+            background-image: url(../../../assets/images/caballero.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        .container-contenido {
+
+            img {
+                border-radius: 20px;
+
+            }
+
+            .ornstein {
+                .titulo-ornstein {
+                    width: 320px;
+                    height: 150px;
+                    justify-content: center;
+                    align-items: center;
+
+                    h2 {
+                        font-size: 1.7em;
+                    }
+
+                }
+
+                .contenido-descripcion {
+                    width: 100%;
+                    height: 150px;
+                    font-size: 1.0em;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+
+                .descripcion-ilustracion {
+                    flex-wrap: wrap;
+                    gap: 10rem;
+                    width: 320px;
+                    height: 500px;
+                    justify-content: center;
+                    align-items: center;
+
+                    p {
+                        font-size: 1.0em;
+                    }
+
+                    img {
+                        width: 100%;
+                        height: 250px;
+                    }
+
+
+                }
+
+
+            }
+
+            .artorias {
+                .titulo-artorias {
+                    width: 320px;
+                    height: 150px;
+                    justify-content: center;
+                    align-items: center;
+
+                    h2 {
+                        font-size: 1.7em;
+                    }
+                }
+
+                .contenido-descripcion {
+                    width: 100%;
+                    height: 150px;
+                    font-size: 1.0em;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+
+                .descripcion-ilustracion {
+                    flex-wrap: wrap;
+                    gap: 10rem;
+                    width: 320px;
+                    height: 500px;
+                    justify-content: center;
+                    align-items: center;
+
+                    p {
+                        font-size: 1.0em;
+                    }
+
+                    img {
+                        width: 100%;
+                        height: 250px;
+                    }
+
+
+                }
+
+
+
+            }
+
+            .gough {
+                .titulo-gough {
+                    width: 320px;
+                    height: 150px;
+                    justify-content: center;
+                    align-items: center;
+
+                    h2 {
+                        font-size: 1.7em;
+                    }
+
+                }
+
+                .contenido-descripcion {
+                    width: 100%;
+                    height: 150px;
+                    font-size: 1.0em;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+
+                .descripcion-ilustracion {
+                    flex-wrap: wrap;
+                    gap: 10rem;
+                    width: 320px;
+                    height: 500px;
+                    justify-content: center;
+                    align-items: center;
+
+                    p {
+                        font-size: 1.0em;
+                    }
+
+                    img {
+                        width: 100%;
+                        height: 250px;
+                    }
+
+
+                }
+
+
+            }
+
+            .ciaran {
+                .titulo-ciaran {
+                    width: 320px;
+                    height: 150px;
+                    justify-content: center;
+                    align-items: center;
+
+                    h2 {
+                        font-size: 1.7em;
+                    }
+
+                }
+
+                .contenido-descripcion {
+                    width: 100%;
+                    height: 150px;
+                    font-size: 1.0em;
+                    justify-content: center;
+                    align-items: center;
+
+
+                }
+
+                .descripcion-ilustracion {
+                    flex-wrap: wrap;
+                    gap: 10rem;
+                    width: 320px;
+                    height: 500px;
+                    justify-content: center;
+                    align-items: center;
+
+                    p {
+                        font-size: 1.0em;
+                    }
+
+                    img {
+                        width: 100%;
+                        height: 250px;
+                    }
+
+                }
+            }
+
+
+        }
+
+    }
 }
