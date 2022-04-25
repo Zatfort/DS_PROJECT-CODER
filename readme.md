@@ -1,5 +1,6 @@
 # Proyecto de CODER - Dark souls
+## Sitio creado para "Proyecto Final" de desarrollo web de CoderHouse.
 
-## Este es el codigo fuente de Dark souls
+
 
 ### Ver el [DEMO](https://zatfort.github.io/DS_PROJECT-CODER/) del sitio
