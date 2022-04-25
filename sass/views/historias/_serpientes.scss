@@ -624,6 +624,7 @@
 }
 @media screen and (max-width: 360px){
     .main-serpientes {
+        overflow: hidden;
         width: 360px;
         .titulo-serpiente {
             article {
@@ -681,7 +682,7 @@
                 justify-content: center;
                 align-items: center;
                 p{
-                    width: 375px;
+                    width: 360px;
                     height: 200px;
                     font-size: 1.3em;
                     padding-left: 2px;

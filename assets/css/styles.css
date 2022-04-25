@@ -467,6 +467,8 @@ header {
   align-items: center;
   gap: 10rem;
   font-size: 2.9em; }
+  .maindestino .section_descripcion__cua-article .cua-article_terdiv img {
+    height: 330px; }
 
 .maindestino .section_descripcion__cua-article .cua-article_cuadiv {
   width: 100%;
@@ -2052,7 +2054,7 @@ header {
 /* ----index---- */
 .parallax-completo {
   width: 100%;
-  height: 500px;
+  height: 710px;
   background-image: url(../../assets/images/Image3.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -2181,14 +2183,24 @@ header {
 
 @media screen and (max-width: 600px) {
   .mainindex {
-    overflow: hidden; }
+    overflow: hidden;
+    width: 600px; }
     .mainindex .contenedor_principal {
       width: 600px; }
       .mainindex .contenedor_principal--titulo h1 {
         font-size: 3.1em; }
+      .mainindex .contenedor_principal .dioses {
+        width: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-items: center; }
+        .mainindex .contenedor_principal .dioses img {
+          width: 100%; }
       .mainindex .contenedor_principal .contenedor_parrafo--p1 {
         font-size: 2.1em; }
       .mainindex .contenedor_principal .contenedor_parrafo--img {
+        width: 600px;
         font-size: 2.1em;
         flex-wrap: wrap; }
         .mainindex .contenedor_principal .contenedor_parrafo--img .divp {
@@ -2215,14 +2227,24 @@ header {
 
 @media screen and (max-width: 480px) {
   .mainindex {
-    overflow: hidden; }
+    overflow: hidden;
+    width: 480px; }
     .mainindex .contenedor_principal {
       width: 480px; }
       .mainindex .contenedor_principal--titulo h1 {
         font-size: 3.1em; }
+      .mainindex .contenedor_principal .dioses {
+        width: 480px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-items: center; }
+        .mainindex .contenedor_principal .dioses img {
+          width: 100%; }
       .mainindex .contenedor_principal .contenedor_parrafo--p1 {
         font-size: 1.7em; }
       .mainindex .contenedor_principal .contenedor_parrafo--img {
+        width: 480px;
         font-size: 1.7em;
         flex-wrap: wrap; }
         .mainindex .contenedor_principal .contenedor_parrafo--img .divp {
@@ -2248,7 +2270,8 @@ header {
 
 @media screen and (max-width: 414px) {
   .mainindex {
-    overflow: hidden; }
+    overflow: hidden;
+    width: 414px; }
     .mainindex .contenedor_principal {
       width: 414px; }
       .mainindex .contenedor_principal--titulo h1 {
@@ -2286,7 +2309,8 @@ header {
 
 @media screen and (max-width: 375px) {
   .mainindex {
-    overflow: hidden; }
+    overflow: hidden;
+    width: 375px; }
     .mainindex .contenedor_principal {
       width: 375px; }
       .mainindex .contenedor_principal--titulo h1 {
@@ -2324,7 +2348,8 @@ header {
 
 @media screen and (max-width: 360px) {
   .mainindex {
-    overflow: hidden; }
+    overflow: hidden;
+    width: 360px; }
     .mainindex .contenedor_principal {
       width: 360px; }
       .mainindex .contenedor_principal--titulo h1 {
@@ -2362,7 +2387,8 @@ header {
 
 @media screen and (max-width: 320px) {
   .mainindex {
-    overflow: hidden; }
+    overflow: hidden;
+    width: 320px; }
     .mainindex .contenedor_principal {
       width: 320px; }
       .mainindex .contenedor_principal--titulo h1 {
@@ -4446,6 +4472,7 @@ header {
 
 @media screen and (max-width: 360px) {
   .main-serpientes {
+    overflow: hidden;
     width: 360px; }
     .main-serpientes .titulo-serpiente article {
       width: 360px;
@@ -4487,7 +4514,7 @@ header {
       justify-content: center;
       align-items: center; }
       .main-serpientes .container-contenido__terarticle p {
-        width: 375px;
+        width: 360px;
         height: 200px;
         font-size: 1.3em;
         padding-left: 2px;
