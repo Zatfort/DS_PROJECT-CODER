@@ -68,7 +68,191 @@
 
 
 
+@media screen and (max-width:1024px){
+    .main-serpientes {
+        width: 1024px;
+        .titulo-serpiente {
+            article {
+                width: 1024px;
+                height: 100px;
+                justify-content: center;
+                align-items: center;
+    
+                background-color: #100e11;
+    
+                h1 {
+                    font-size: 2.5em;
+                }
+            }
+    
+        }
+        .container-contenido{
+            img{
+                border-radius: 20px;
+    
+            }
+            &__priarticle{
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 300px;
+                p{
+                    font-size: 2.2em
+                }
+            }
+            &__secarticle{
+                flex-wrap: wrap;
+                width: 100%;
+                height: 700px;
+                justify-content: center;
+                align-items: center;
+                p{
+                    width: 100%;
+                    height: 200px;
+                    font-size: 2.2em;
+                }
+                img{
+                    width: 100%;
+                    height: 400px;
+                }
+    
+            }
+            &__terarticle{
+                flex-wrap: wrap;
+                gap: 20rem;
+                width: 100%;
+                height: 800px;
+                justify-content: center;
+                align-items: center;
+                p{
+                    width: 1024px;
+                    height: 200px;
+                    font-size: 2.1em;
+                }
+                img{
+                    width: 100%;
+                    height: 400px;
+                }
+    
+            }
+            &__cuaarticle{
+                flex-wrap: wrap;
+                gap: 10rem;
+                width: 100%;
+                height: 800px;
+                justify-content: center;
+                align-items: center;
+                p{
+                    width: 1024px;
+                    height: 200px;
+                    font-size: 2.1em;
+                }
+                img{
+                    width: 100%;
+                    height: 400px;
+                }
+    
+            }
+    
+        }
+    
+    
+    }
 
+}
+
+@media screen and (max-width:768px){
+    .main-serpientes {
+        width: 768px;
+        .titulo-serpiente {
+            article {
+                width: 768px;
+                height: 100px;
+                justify-content: center;
+                align-items: center;
+    
+                background-color: #100e11;
+    
+                h1 {
+                    font-size: 2.4em;
+                }
+            }
+    
+        }
+        .container-contenido{
+            img{
+                border-radius: 20px;
+    
+            }
+            &__priarticle{
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 300px;
+                p{
+                    font-size: 2.1em
+                }
+            }
+            &__secarticle{
+                flex-wrap: wrap;
+                width: 100%;
+                height: 700px;
+                justify-content: center;
+                align-items: center;
+                p{
+                    width: 100%;
+                    height: 200px;
+                    font-size: 2.1em;
+                }
+                img{
+                    width: 100%;
+                    height: 300px;
+                }
+    
+            }
+            &__terarticle{
+                flex-wrap: wrap;
+                gap: 20rem;
+                width: 100%;
+                height: 800px;
+                justify-content: center;
+                align-items: center;
+                p{
+                    width: 768px;
+                    height: 200px;
+                    font-size: 2.1em;
+                }
+                img{
+                    width: 100%;
+                    height: 350px;
+                }
+    
+            }
+            &__cuaarticle{
+                flex-wrap: wrap;
+                gap: 10rem;
+                width: 100%;
+                height: 800px;
+                justify-content: center;
+                align-items: center;
+                p{
+                    width: 768px;
+                    height: 200px;
+                    font-size: 2.1em;
+                }
+                img{
+                    width: 100%;
+                    height: 350px;
+                }
+    
+            }
+    
+        }
+    
+    
+    }
+
+}
 @media screen and (max-width:600px){
     .main-serpientes {
         width: 600px;
@@ -161,8 +345,6 @@
     }
 
 }
-
-
 @media screen and (max-width:480px){
     .main-serpientes {
         width: 480px;
@@ -255,9 +437,6 @@
     }
 
 }
-
-
-
 @media screen and (max-width: 414px){
     .main-serpientes {
         width: 414px;

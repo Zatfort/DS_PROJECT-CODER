@@ -252,6 +252,16 @@ header {
       header .menu .menu__item .menu__link--active {
         border-bottom: 2px solid white; }
 
+@media screen and (max-width: 1024px) {
+  header {
+    max-width: 1024px;
+    height: 100%; }
+    header ul {
+      font-size: 0.9em; }
+    header picture a .logo_gif {
+      width: 200px;
+      height: 75px; } }
+
 @media screen and (max-width: 600px) {
   header {
     max-width: 600px;
@@ -481,6 +491,372 @@ header {
   align-items: center;
   gap: 10rem;
   font-size: 2.9em; }
+
+@media screen and (max-width: 1024px) {
+  .parallax-destino {
+    width: 1024px;
+    height: 400px;
+    background-image: url(../../assets/images/fotos/destino/banner.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; }
+  .maindestino {
+    width: 1024px; }
+    .maindestino .contenedor_santuario {
+      background-color: #100e11; }
+      .maindestino .contenedor_santuario article {
+        width: 100%;
+        height: 100px;
+        justify-content: center;
+        align-items: center; }
+        .maindestino .contenedor_santuario article h1 {
+          font-size: 2.9em; }
+    .maindestino .waybell {
+      width: 100%;
+      height: 100px;
+      justify-content: center;
+      align-items: center; }
+      .maindestino .waybell h2 {
+        font-size: 2em; }
+    .maindestino .div_h2 {
+      width: 100%;
+      height: 100px;
+      justify-content: center;
+      align-items: center; }
+      .maindestino .div_h2 h2 {
+        font-size: 2em; }
+    .maindestino .section_descripcion__pri-article {
+      flex-wrap: wrap;
+      width: 1024px;
+      height: 400px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      font-size: 1.9em;
+      border-bottom: 1px solid #fde49f; }
+      .maindestino .section_descripcion__pri-article img {
+        width: 768px; }
+    .maindestino .section_descripcion__pri-div {
+      width: 100%;
+      height: 200px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 2em; }
+    .maindestino .section_descripcion__seg-article {
+      flex-wrap: wrap;
+      width: 100%;
+      height: 800px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      font-size: 2em; }
+      .maindestino .section_descripcion__seg-article img {
+        width: 768px; }
+    .maindestino .section_descripcion__seg-div {
+      width: 100%;
+      height: 300px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 2em; }
+    .maindestino .section_descripcion .segdiv {
+      border-bottom: 1px solid #fde49f; }
+    .maindestino .section_descripcion__ter-article .ter-article_pridiv {
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center; }
+      .maindestino .section_descripcion__ter-article .ter-article_pridiv img {
+        width: 768px;
+        height: 350px; }
+      .maindestino .section_descripcion__ter-article .ter-article_pridiv p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+        font-size: 2em;
+        text-align: center; }
+    .maindestino .section_descripcion__ter-article .ter-article_secdiv {
+      height: 800px;
+      justify-content: space-around;
+      align-items: center; }
+      .maindestino .section_descripcion__ter-article .ter-article_secdiv img {
+        width: 768px; }
+      .maindestino .section_descripcion__ter-article .ter-article_secdiv p {
+        width: 1024px;
+        font-size: 1.9em;
+        text-align: center; }
+    .maindestino .section_descripcion__cua-article .cua-article_pridiv {
+      flex-wrap: wrap-reverse;
+      width: 100%;
+      height: 600px;
+      justify-content: space-around;
+      align-items: center;
+      gap: 5rem; }
+      .maindestino .section_descripcion__cua-article .cua-article_pridiv p {
+        width: 1024px;
+        font-size: 1.9em;
+        text-align: center; }
+      .maindestino .section_descripcion__cua-article .cua-article_pridiv img {
+        width: 768px;
+        height: 350px; }
+    .maindestino .section_descripcion__cua-article .parallax-destino2 {
+      width: 768px;
+      height: 300px; }
+      .maindestino .section_descripcion__cua-article .parallax-destino2 img {
+        width: 100%;
+        height: 350px; }
+    .maindestino .section_descripcion__cua-article .div_presentacion-quelana {
+      width: 1024px;
+      height: 150px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 2em; }
+    .maindestino .section_descripcion__cua-article .cua-article_secdiv {
+      flex-wrap: wrap-reverse;
+      width: 1024px;
+      height: 700px;
+      justify-content: space-around;
+      align-items: center;
+      gap: 2.0rem;
+      font-size: 1.7em; }
+      .maindestino .section_descripcion__cua-article .cua-article_secdiv img {
+        height: 500px; }
+    .maindestino .section_descripcion__cua-article .hermanas_div {
+      flex-wrap: wrap;
+      width: 1024px;
+      height: 500px;
+      justify-content: space-around;
+      align-items: center;
+      gap: 1rem;
+      font-size: 1.9em; }
+      .maindestino .section_descripcion__cua-article .hermanas_div img {
+        width: 550px; }
+    .maindestino .section_descripcion__cua-article .cua-article_terdiv {
+      flex-wrap: wrap;
+      width: 100%;
+      height: 500px;
+      justify-content: space-around;
+      align-items: center;
+      gap: 5rem;
+      font-size: 1.9em; }
+      .maindestino .section_descripcion__cua-article .cua-article_terdiv img {
+        width: 600px; }
+    .maindestino .section_descripcion__cua-article .cua-article_cuadiv {
+      flex-wrap: wrap-reverse;
+      width: 1024px;
+      height: 900px;
+      justify-content: space-around;
+      align-items: center;
+      gap: 4rem;
+      font-size: 1.9em;
+      text-align: center; }
+      .maindestino .section_descripcion__cua-article .cua-article_cuadiv img {
+        width: 600px;
+        height: 475px; }
+    .maindestino .section_descripcion .div_bellend {
+      width: 100%;
+      height: 200px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 2.4em; }
+    .maindestino .section_descripcion__quin-article {
+      flex-wrap: wrap-reverse;
+      width: 100%;
+      height: 750px;
+      justify-content: space-around;
+      align-items: center;
+      font-size: 2.3em; }
+      .maindestino .section_descripcion__quin-article img {
+        width: 500px; } }
+
+@media screen and (max-width: 768px) {
+  .parallax-destino {
+    width: 768px;
+    height: 400px;
+    background-image: url(../../assets/images/fotos/destino/banner.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; }
+  .maindestino {
+    width: 768px; }
+    .maindestino .contenedor_santuario {
+      background-color: #100e11; }
+      .maindestino .contenedor_santuario article {
+        width: 100%;
+        height: 100px;
+        justify-content: center;
+        align-items: center; }
+        .maindestino .contenedor_santuario article h1 {
+          font-size: 2.9em; }
+    .maindestino .waybell {
+      width: 100%;
+      height: 100px;
+      justify-content: center;
+      align-items: center; }
+      .maindestino .waybell h2 {
+        font-size: 2em; }
+    .maindestino .div_h2 {
+      width: 100%;
+      height: 100px;
+      justify-content: center;
+      align-items: center; }
+      .maindestino .div_h2 h2 {
+        font-size: 2em; }
+    .maindestino .section_descripcion__pri-article {
+      flex-wrap: wrap;
+      width: 768px;
+      height: 400px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      font-size: 1.9em;
+      border-bottom: 1px solid #fde49f; }
+      .maindestino .section_descripcion__pri-article img {
+        width: 768px; }
+    .maindestino .section_descripcion__pri-div {
+      width: 100%;
+      height: 200px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 1.9em; }
+    .maindestino .section_descripcion__seg-article {
+      flex-wrap: wrap;
+      width: 100%;
+      height: 800px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      font-size: 1.9em; }
+      .maindestino .section_descripcion__seg-article img {
+        width: 768px; }
+    .maindestino .section_descripcion__seg-div {
+      width: 100%;
+      height: 300px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 1.9em; }
+    .maindestino .section_descripcion .segdiv {
+      border-bottom: 1px solid #fde49f; }
+    .maindestino .section_descripcion__ter-article .ter-article_pridiv {
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center; }
+      .maindestino .section_descripcion__ter-article .ter-article_pridiv img {
+        width: 768px;
+        height: 320px; }
+      .maindestino .section_descripcion__ter-article .ter-article_pridiv p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+        font-size: 2em;
+        text-align: center; }
+    .maindestino .section_descripcion__ter-article .ter-article_secdiv {
+      height: 800px;
+      justify-content: space-around;
+      align-items: center; }
+      .maindestino .section_descripcion__ter-article .ter-article_secdiv img {
+        width: 768px; }
+      .maindestino .section_descripcion__ter-article .ter-article_secdiv p {
+        width: 768px;
+        font-size: 1.9em;
+        text-align: center; }
+    .maindestino .section_descripcion__cua-article .cua-article_pridiv {
+      flex-wrap: wrap-reverse;
+      width: 100%;
+      height: 600px;
+      justify-content: space-around;
+      align-items: center;
+      gap: 5rem; }
+      .maindestino .section_descripcion__cua-article .cua-article_pridiv p {
+        width: 768px;
+        font-size: 1.9em;
+        text-align: center; }
+      .maindestino .section_descripcion__cua-article .cua-article_pridiv img {
+        width: 768px;
+        height: 300px; }
+    .maindestino .section_descripcion__cua-article .parallax-destino2 {
+      width: 768px;
+      height: 300px; }
+      .maindestino .section_descripcion__cua-article .parallax-destino2 img {
+        width: 100%;
+        height: 300px; }
+    .maindestino .section_descripcion__cua-article .div_presentacion-quelana {
+      width: 768px;
+      height: 100px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 1.9em; }
+    .maindestino .section_descripcion__cua-article .cua-article_secdiv {
+      flex-wrap: wrap-reverse;
+      width: 768px;
+      height: 700px;
+      justify-content: space-around;
+      align-items: center;
+      gap: 2.0rem;
+      font-size: 1.7em; }
+      .maindestino .section_descripcion__cua-article .cua-article_secdiv img {
+        height: 500px; }
+    .maindestino .section_descripcion__cua-article .hermanas_div {
+      flex-wrap: wrap;
+      width: 768px;
+      height: 500px;
+      justify-content: space-around;
+      align-items: center;
+      gap: 1rem;
+      font-size: 1.9em; }
+      .maindestino .section_descripcion__cua-article .hermanas_div img {
+        width: 550px; }
+    .maindestino .section_descripcion__cua-article .cua-article_terdiv {
+      flex-wrap: wrap;
+      width: 100%;
+      height: 500px;
+      justify-content: space-around;
+      align-items: center;
+      gap: 5rem;
+      font-size: 1.9em; }
+      .maindestino .section_descripcion__cua-article .cua-article_terdiv img {
+        width: 600px; }
+    .maindestino .section_descripcion__cua-article .cua-article_cuadiv {
+      flex-wrap: wrap-reverse;
+      width: 768px;
+      height: 900px;
+      justify-content: space-around;
+      align-items: center;
+      gap: 4rem;
+      font-size: 1.9em;
+      text-align: center; }
+      .maindestino .section_descripcion__cua-article .cua-article_cuadiv img {
+        width: 600px;
+        height: 475px; }
+    .maindestino .section_descripcion .div_bellend {
+      width: 100%;
+      height: 200px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 2.4em; }
+    .maindestino .section_descripcion__quin-article {
+      flex-wrap: wrap-reverse;
+      width: 100%;
+      height: 750px;
+      justify-content: space-around;
+      align-items: center;
+      font-size: 2.4em; }
+      .maindestino .section_descripcion__quin-article img {
+        width: 500px; } }
 
 @media screen and (max-width: 600px) {
   .parallax-destino {
@@ -1604,7 +1980,7 @@ header {
 /* ----index---- */
 .parallax-completo {
   width: 100%;
-  height: 640px;
+  height: 500px;
   background-image: url(../../assets/images/Image3.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1658,6 +2034,78 @@ header {
     width: 100%;
     height: 300px;
     justify-content: center; }
+
+@media screen and (max-width: 1024px) {
+  .mainindex {
+    overflow: hidden; }
+    .mainindex .contenedor_principal {
+      width: 1024px; }
+      .mainindex .contenedor_principal--titulo h1 {
+        font-size: 3.1em; }
+      .mainindex .contenedor_principal .contenedor_parrafo--p1 {
+        font-size: 1.9em; }
+      .mainindex .contenedor_principal .contenedor_parrafo--img {
+        font-size: 2.0em;
+        flex-wrap: wrap; }
+        .mainindex .contenedor_principal .contenedor_parrafo--img .divp {
+          justify-items: center; }
+          .mainindex .contenedor_principal .contenedor_parrafo--img .divp p {
+            width: 1024px; }
+        .mainindex .contenedor_principal .contenedor_parrafo--img div {
+          width: 1024px; }
+          .mainindex .contenedor_principal .contenedor_parrafo--img div img {
+            width: 100%; }
+      .mainindex .contenedor_principal .contenedor_parrafo--p2 {
+        font-size: 2.0em; }
+        .mainindex .contenedor_principal .contenedor_parrafo--p2 .box {
+          width: 1024px;
+          flex-wrap: wrap;
+          justify-content: center; }
+          .mainindex .contenedor_principal .contenedor_parrafo--p2 .box img {
+            width: 100%; }
+          .mainindex .contenedor_principal .contenedor_parrafo--p2 .box p {
+            width: 1024px;
+            order: 0; }
+          .mainindex .contenedor_principal .contenedor_parrafo--p2 .box h3 {
+            text-align: center; }
+      .mainindex .contenedor_principal .contenedor_parrafo--p3 {
+        font-size: 2.1em; } }
+
+@media screen and (max-width: 768px) {
+  .mainindex {
+    overflow: hidden; }
+    .mainindex .contenedor_principal {
+      width: 768px; }
+      .mainindex .contenedor_principal--titulo h1 {
+        font-size: 3.1em; }
+      .mainindex .contenedor_principal .contenedor_parrafo--p1 {
+        font-size: 1.9em; }
+      .mainindex .contenedor_principal .contenedor_parrafo--img {
+        font-size: 2.0em;
+        flex-wrap: wrap; }
+        .mainindex .contenedor_principal .contenedor_parrafo--img .divp {
+          justify-items: center; }
+          .mainindex .contenedor_principal .contenedor_parrafo--img .divp p {
+            width: 768px; }
+        .mainindex .contenedor_principal .contenedor_parrafo--img div {
+          width: 768px; }
+          .mainindex .contenedor_principal .contenedor_parrafo--img div img {
+            width: 100%; }
+      .mainindex .contenedor_principal .contenedor_parrafo--p2 {
+        font-size: 2.0em; }
+        .mainindex .contenedor_principal .contenedor_parrafo--p2 .box {
+          width: 768px;
+          flex-wrap: wrap;
+          justify-content: center; }
+          .mainindex .contenedor_principal .contenedor_parrafo--p2 .box img {
+            width: 100%; }
+          .mainindex .contenedor_principal .contenedor_parrafo--p2 .box p {
+            width: 768px;
+            order: 0; }
+          .mainindex .contenedor_principal .contenedor_parrafo--p2 .box h3 {
+            text-align: center; }
+      .mainindex .contenedor_principal .contenedor_parrafo--p3 {
+        font-size: 2.1em; } }
 
 @media screen and (max-width: 600px) {
   .mainindex {
@@ -1958,6 +2406,170 @@ header {
     margin-bottom: 70px;
     margin-top: 15px;
     transition: all 500ms ease-in-out; }
+
+@media screen and (max-width: 1024px) {
+  .parallax-completo__storys {
+    width: 1024px;
+    height: 500px;
+    background-image: url(../../assets/images/fotos/Storys/juntada22.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; }
+  .main_storys {
+    width: 1024px; }
+    .main_storys .contenedor_storys article {
+      width: 1024px;
+      height: 100px;
+      justify-content: center;
+      align-items: center;
+      background-color: #100e11; }
+      .main_storys .contenedor_storys article h1 {
+        font-size: 3.1em; }
+    .main_storys .contendor_introduccion-storys .introduccion_storys {
+      width: 1024px;
+      height: 200px;
+      justify-content: center;
+      align-items: center;
+      font-size: 2.1em;
+      color: #fdfaf8; }
+    .main_storys .introduccion__parrafo {
+      width: 1024px;
+      height: 200px;
+      justify-content: center;
+      align-items: center;
+      font-size: 2.1em;
+      color: #fdfaf8; }
+    .main_storys .section_historias {
+      flex-wrap: wrap; }
+    .main_storys .contenedor {
+      width: 1024px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 70vh; }
+      .main_storys .contenedor figure {
+        position: relative;
+        height: 521px;
+        width: 350px;
+        overflow: hidden;
+        border-radius: 6px;
+        box-shadow: 0px 15px 25px white;
+        cursor: pointer; }
+        .main_storys .contenedor figure img {
+          width: 100%;
+          height: 100%;
+          transition: all 500ms ease-in-out; }
+        .main_storys .contenedor figure .capa {
+          position: absolute;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(11, 103, 123, 0.7);
+          transition: all 500ms ease-in-out;
+          opacity: 0;
+          visibility: hidden;
+          text-align: center; }
+      .main_storys .contenedor figure:hover > .capa {
+        opacity: 1;
+        visibility: visible; }
+      .main_storys .contenedor figure:hover > .capa h3 {
+        margin-top: 90px;
+        margin-bottom: 1px;
+        font-size: large; }
+      .main_storys .contenedor figure:hover > img {
+        transform: scale(1.3); }
+      .main_storys .contenedor a {
+        height: 500px;
+        width: 350px; }
+      .main_storys .contenedor h3 {
+        color: #fff;
+        font-weight: 4000;
+        margin-bottom: 70px;
+        margin-top: 15px;
+        transition: all 500ms ease-in-out; } }
+
+@media screen and (max-width: 768px) {
+  .parallax-completo__storys {
+    width: 768px;
+    height: 500px;
+    background-image: url(../../assets/images/fotos/Storys/juntada22.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; }
+  .main_storys {
+    width: 768px; }
+    .main_storys .contenedor_storys article {
+      width: 768px;
+      height: 100px;
+      justify-content: center;
+      align-items: center;
+      background-color: #100e11; }
+      .main_storys .contenedor_storys article h1 {
+        font-size: 3.1em; }
+    .main_storys .contendor_introduccion-storys .introduccion_storys {
+      width: 768px;
+      height: 200px;
+      justify-content: center;
+      align-items: center;
+      font-size: 2.1em;
+      color: #fdfaf8; }
+    .main_storys .introduccion__parrafo {
+      width: 768px;
+      height: 200px;
+      justify-content: center;
+      align-items: center;
+      font-size: 2.1em;
+      color: #fdfaf8; }
+    .main_storys .section_historias {
+      flex-wrap: wrap; }
+    .main_storys .contenedor {
+      width: 768px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 70vh; }
+      .main_storys .contenedor figure {
+        position: relative;
+        height: 521px;
+        width: 350px;
+        overflow: hidden;
+        border-radius: 6px;
+        box-shadow: 0px 15px 25px white;
+        cursor: pointer; }
+        .main_storys .contenedor figure img {
+          width: 100%;
+          height: 100%;
+          transition: all 500ms ease-in-out; }
+        .main_storys .contenedor figure .capa {
+          position: absolute;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(11, 103, 123, 0.7);
+          transition: all 500ms ease-in-out;
+          opacity: 0;
+          visibility: hidden;
+          text-align: center; }
+      .main_storys .contenedor figure:hover > .capa {
+        opacity: 1;
+        visibility: visible; }
+      .main_storys .contenedor figure:hover > .capa h3 {
+        margin-top: 90px;
+        margin-bottom: 1px;
+        font-size: large; }
+      .main_storys .contenedor figure:hover > img {
+        transform: scale(1.3); }
+      .main_storys .contenedor a {
+        height: 500px;
+        width: 350px; }
+      .main_storys .contenedor h3 {
+        color: #fff;
+        font-weight: 4000;
+        margin-bottom: 70px;
+        margin-top: 15px;
+        transition: all 500ms ease-in-out; } }
 
 @media screen and (max-width: 600px) {
   .parallax-completo__storys {
@@ -2382,6 +2994,248 @@ header {
   align-items: center; }
   .main-caballeros .container-contenido .ciaran .descripcion-ilustracion p {
     font-size: 2.9em; }
+
+@media screen and (max-width: 1024px) {
+  .main-caballeros {
+    width: 1024px; }
+    .main-caballeros .titulo-caballeros article {
+      width: 100%;
+      height: 100px;
+      justify-content: center;
+      align-items: center;
+      background-color: #100e11; }
+      .main-caballeros .titulo-caballeros article h1 {
+        font-size: 3.1em; }
+    .main-caballeros .parallax-caballeros {
+      width: 100%;
+      height: 800px;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center; }
+    .main-caballeros .container-contenido img {
+      border-radius: 20px; }
+    .main-caballeros .container-contenido .ornstein .titulo-ornstein {
+      width: 100%;
+      height: 250px;
+      justify-content: center;
+      align-items: center; }
+      .main-caballeros .container-contenido .ornstein .titulo-ornstein h2 {
+        font-size: 2.8em; }
+    .main-caballeros .container-contenido .ornstein .contenido-descripcion {
+      width: 100%;
+      height: 200px;
+      font-size: 2.2em;
+      justify-content: center;
+      align-items: center; }
+    .main-caballeros .container-contenido .ornstein .descripcion-ilustracion {
+      flex-wrap: wrap;
+      gap: 10rem;
+      width: 1024px;
+      height: 800px;
+      justify-content: center;
+      align-items: center; }
+      .main-caballeros .container-contenido .ornstein .descripcion-ilustracion p {
+        font-size: 2.2em; }
+      .main-caballeros .container-contenido .ornstein .descripcion-ilustracion img {
+        width: 100%;
+        height: 350px; }
+    .main-caballeros .container-contenido .artorias .titulo-artorias {
+      width: 1024px;
+      height: 250px;
+      justify-content: center;
+      align-items: center; }
+      .main-caballeros .container-contenido .artorias .titulo-artorias h2 {
+        font-size: 2.5em; }
+    .main-caballeros .container-contenido .artorias .contenido-descripcion {
+      flex-wrap: wrap;
+      width: 100%;
+      height: 200px;
+      font-size: 2.2em;
+      justify-content: center;
+      align-items: center; }
+    .main-caballeros .container-contenido .artorias .descripcion-ilustracion {
+      flex-wrap: wrap;
+      gap: 10rem;
+      width: 100%;
+      height: 700px;
+      justify-content: center;
+      align-items: center; }
+      .main-caballeros .container-contenido .artorias .descripcion-ilustracion img {
+        width: 100%;
+        height: 450px; }
+      .main-caballeros .container-contenido .artorias .descripcion-ilustracion p {
+        font-size: 2.2em; }
+    .main-caballeros .container-contenido .gough .titulo-gough {
+      width: 100%;
+      height: 250px;
+      justify-content: center;
+      align-items: center; }
+      .main-caballeros .container-contenido .gough .titulo-gough h2 {
+        font-size: 2.5em; }
+    .main-caballeros .container-contenido .gough .contenido-descripcion {
+      width: 100%;
+      height: 200px;
+      font-size: 2.2em;
+      justify-content: center;
+      align-items: center; }
+    .main-caballeros .container-contenido .gough .descripcion-ilustracion {
+      flex-wrap: wrap;
+      gap: 10rem;
+      width: 100%;
+      height: 700px;
+      justify-content: center;
+      align-items: center; }
+      .main-caballeros .container-contenido .gough .descripcion-ilustracion p {
+        font-size: 2.2em; }
+      .main-caballeros .container-contenido .gough .descripcion-ilustracion img {
+        width: 100%;
+        height: 350px; }
+    .main-caballeros .container-contenido .ciaran .titulo-ciaran {
+      width: 1024px;
+      height: 250px;
+      justify-content: center;
+      align-items: center; }
+      .main-caballeros .container-contenido .ciaran .titulo-ciaran h2 {
+        font-size: 2.5em; }
+    .main-caballeros .container-contenido .ciaran .contenido-descripcion {
+      width: 1024px;
+      height: 200px;
+      font-size: 2.2em;
+      justify-content: center;
+      align-items: center; }
+    .main-caballeros .container-contenido .ciaran .descripcion-ilustracion {
+      flex-wrap: wrap;
+      gap: 10rem;
+      width: 100%;
+      height: 700px;
+      justify-content: center;
+      align-items: center; }
+      .main-caballeros .container-contenido .ciaran .descripcion-ilustracion p {
+        font-size: 2.2em; }
+      .main-caballeros .container-contenido .ciaran .descripcion-ilustracion img {
+        width: 100%;
+        height: 450px; } }
+
+@media screen and (max-width: 768px) {
+  .main-caballeros {
+    width: 768px; }
+    .main-caballeros .titulo-caballeros article {
+      width: 100%;
+      height: 100px;
+      justify-content: center;
+      align-items: center;
+      background-color: #100e11; }
+      .main-caballeros .titulo-caballeros article h1 {
+        font-size: 3.1em; }
+    .main-caballeros .parallax-caballeros {
+      width: 100%;
+      height: 800px;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center; }
+    .main-caballeros .container-contenido img {
+      border-radius: 20px; }
+    .main-caballeros .container-contenido .ornstein .titulo-ornstein {
+      width: 100%;
+      height: 250px;
+      justify-content: center;
+      align-items: center; }
+      .main-caballeros .container-contenido .ornstein .titulo-ornstein h2 {
+        font-size: 2.8em; }
+    .main-caballeros .container-contenido .ornstein .contenido-descripcion {
+      width: 100%;
+      height: 200px;
+      font-size: 2.2em;
+      justify-content: center;
+      align-items: center; }
+    .main-caballeros .container-contenido .ornstein .descripcion-ilustracion {
+      flex-wrap: wrap;
+      gap: 10rem;
+      width: 768px;
+      height: 800px;
+      justify-content: center;
+      align-items: center; }
+      .main-caballeros .container-contenido .ornstein .descripcion-ilustracion p {
+        font-size: 2.2em; }
+      .main-caballeros .container-contenido .ornstein .descripcion-ilustracion img {
+        width: 100%;
+        height: 350px; }
+    .main-caballeros .container-contenido .artorias .titulo-artorias {
+      width: 768px;
+      height: 250px;
+      justify-content: center;
+      align-items: center; }
+      .main-caballeros .container-contenido .artorias .titulo-artorias h2 {
+        font-size: 2.5em; }
+    .main-caballeros .container-contenido .artorias .contenido-descripcion {
+      flex-wrap: wrap;
+      width: 100%;
+      height: 200px;
+      font-size: 2.2em;
+      justify-content: center;
+      align-items: center; }
+    .main-caballeros .container-contenido .artorias .descripcion-ilustracion {
+      flex-wrap: wrap;
+      gap: 10rem;
+      width: 100%;
+      height: 700px;
+      justify-content: center;
+      align-items: center; }
+      .main-caballeros .container-contenido .artorias .descripcion-ilustracion img {
+        width: 100%;
+        height: 350px; }
+      .main-caballeros .container-contenido .artorias .descripcion-ilustracion p {
+        font-size: 2.2em; }
+    .main-caballeros .container-contenido .gough .titulo-gough {
+      width: 100%;
+      height: 250px;
+      justify-content: center;
+      align-items: center; }
+      .main-caballeros .container-contenido .gough .titulo-gough h2 {
+        font-size: 2.5em; }
+    .main-caballeros .container-contenido .gough .contenido-descripcion {
+      width: 100%;
+      height: 200px;
+      font-size: 2.2em;
+      justify-content: center;
+      align-items: center; }
+    .main-caballeros .container-contenido .gough .descripcion-ilustracion {
+      flex-wrap: wrap;
+      gap: 10rem;
+      width: 100%;
+      height: 700px;
+      justify-content: center;
+      align-items: center; }
+      .main-caballeros .container-contenido .gough .descripcion-ilustracion p {
+        font-size: 2.2em; }
+      .main-caballeros .container-contenido .gough .descripcion-ilustracion img {
+        width: 100%;
+        height: 350px; }
+    .main-caballeros .container-contenido .ciaran .titulo-ciaran {
+      width: 768px;
+      height: 250px;
+      justify-content: center;
+      align-items: center; }
+      .main-caballeros .container-contenido .ciaran .titulo-ciaran h2 {
+        font-size: 2.5em; }
+    .main-caballeros .container-contenido .ciaran .contenido-descripcion {
+      width: 768px;
+      height: 200px;
+      font-size: 2.2em;
+      justify-content: center;
+      align-items: center; }
+    .main-caballeros .container-contenido .ciaran .descripcion-ilustracion {
+      flex-wrap: wrap;
+      gap: 10rem;
+      width: 100%;
+      height: 700px;
+      justify-content: center;
+      align-items: center; }
+      .main-caballeros .container-contenido .ciaran .descripcion-ilustracion p {
+        font-size: 2.2em; }
+      .main-caballeros .container-contenido .ciaran .descripcion-ilustracion img {
+        width: 100%;
+        height: 450px; } }
 
 @media screen and (max-width: 600px) {
   .main-caballeros {
@@ -3146,6 +4000,130 @@ header {
   .main-serpientes .container-contenido__cuaarticle p {
     font-size: 3.1em; }
 
+@media screen and (max-width: 1024px) {
+  .main-serpientes {
+    width: 1024px; }
+    .main-serpientes .titulo-serpiente article {
+      width: 1024px;
+      height: 100px;
+      justify-content: center;
+      align-items: center;
+      background-color: #100e11; }
+      .main-serpientes .titulo-serpiente article h1 {
+        font-size: 2.5em; }
+    .main-serpientes .container-contenido img {
+      border-radius: 20px; }
+    .main-serpientes .container-contenido__priarticle {
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 300px; }
+      .main-serpientes .container-contenido__priarticle p {
+        font-size: 2.2em; }
+    .main-serpientes .container-contenido__secarticle {
+      flex-wrap: wrap;
+      width: 100%;
+      height: 700px;
+      justify-content: center;
+      align-items: center; }
+      .main-serpientes .container-contenido__secarticle p {
+        width: 100%;
+        height: 200px;
+        font-size: 2.2em; }
+      .main-serpientes .container-contenido__secarticle img {
+        width: 100%;
+        height: 400px; }
+    .main-serpientes .container-contenido__terarticle {
+      flex-wrap: wrap;
+      gap: 20rem;
+      width: 100%;
+      height: 800px;
+      justify-content: center;
+      align-items: center; }
+      .main-serpientes .container-contenido__terarticle p {
+        width: 1024px;
+        height: 200px;
+        font-size: 2.1em; }
+      .main-serpientes .container-contenido__terarticle img {
+        width: 100%;
+        height: 400px; }
+    .main-serpientes .container-contenido__cuaarticle {
+      flex-wrap: wrap;
+      gap: 10rem;
+      width: 100%;
+      height: 800px;
+      justify-content: center;
+      align-items: center; }
+      .main-serpientes .container-contenido__cuaarticle p {
+        width: 1024px;
+        height: 200px;
+        font-size: 2.1em; }
+      .main-serpientes .container-contenido__cuaarticle img {
+        width: 100%;
+        height: 400px; } }
+
+@media screen and (max-width: 768px) {
+  .main-serpientes {
+    width: 768px; }
+    .main-serpientes .titulo-serpiente article {
+      width: 768px;
+      height: 100px;
+      justify-content: center;
+      align-items: center;
+      background-color: #100e11; }
+      .main-serpientes .titulo-serpiente article h1 {
+        font-size: 2.4em; }
+    .main-serpientes .container-contenido img {
+      border-radius: 20px; }
+    .main-serpientes .container-contenido__priarticle {
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 300px; }
+      .main-serpientes .container-contenido__priarticle p {
+        font-size: 2.1em; }
+    .main-serpientes .container-contenido__secarticle {
+      flex-wrap: wrap;
+      width: 100%;
+      height: 700px;
+      justify-content: center;
+      align-items: center; }
+      .main-serpientes .container-contenido__secarticle p {
+        width: 100%;
+        height: 200px;
+        font-size: 2.1em; }
+      .main-serpientes .container-contenido__secarticle img {
+        width: 100%;
+        height: 300px; }
+    .main-serpientes .container-contenido__terarticle {
+      flex-wrap: wrap;
+      gap: 20rem;
+      width: 100%;
+      height: 800px;
+      justify-content: center;
+      align-items: center; }
+      .main-serpientes .container-contenido__terarticle p {
+        width: 768px;
+        height: 200px;
+        font-size: 2.1em; }
+      .main-serpientes .container-contenido__terarticle img {
+        width: 100%;
+        height: 350px; }
+    .main-serpientes .container-contenido__cuaarticle {
+      flex-wrap: wrap;
+      gap: 10rem;
+      width: 100%;
+      height: 800px;
+      justify-content: center;
+      align-items: center; }
+      .main-serpientes .container-contenido__cuaarticle p {
+        width: 768px;
+        height: 200px;
+        font-size: 2.1em; }
+      .main-serpientes .container-contenido__cuaarticle img {
+        width: 100%;
+        height: 350px; } }
+
 @media screen and (max-width: 600px) {
   .main-serpientes {
     width: 600px; }
@@ -3554,6 +4532,66 @@ header {
   align-items: center; }
   .main-solaire .descripcion-ilustracion p {
     font-size: 2.9em; }
+
+@media screen and (max-width: 1024px) {
+  .main-solaire {
+    width: 1024px; }
+    .main-solaire .titulo-solaire article {
+      width: 100%;
+      height: 100px;
+      justify-content: center;
+      align-items: center;
+      background-color: #100e11; }
+      .main-solaire .titulo-solaire article h1 {
+        font-size: 3.1em; }
+    .main-solaire .contenido-descripcion {
+      width: 100%;
+      height: 200px;
+      font-size: 2.1em;
+      justify-content: center;
+      align-items: center; }
+    .main-solaire .descripcion-ilustracion {
+      flex-wrap: wrap;
+      gap: 10rem;
+      width: 100%;
+      height: 900px;
+      justify-content: center;
+      align-items: center; }
+      .main-solaire .descripcion-ilustracion img {
+        width: 100%; }
+      .main-solaire .descripcion-ilustracion p {
+        margin: 0 5px 0 5px;
+        font-size: 1.9em; } }
+
+@media screen and (max-width: 768px) {
+  .main-solaire {
+    width: 768px; }
+    .main-solaire .titulo-solaire article {
+      width: 100%;
+      height: 100px;
+      justify-content: center;
+      align-items: center;
+      background-color: #100e11; }
+      .main-solaire .titulo-solaire article h1 {
+        font-size: 3.0em; }
+    .main-solaire .contenido-descripcion {
+      width: 100%;
+      height: 200px;
+      font-size: 2.1em;
+      justify-content: center;
+      align-items: center; }
+    .main-solaire .descripcion-ilustracion {
+      flex-wrap: wrap;
+      gap: 10rem;
+      width: 100%;
+      height: 900px;
+      justify-content: center;
+      align-items: center; }
+      .main-solaire .descripcion-ilustracion img {
+        width: 100%; }
+      .main-solaire .descripcion-ilustracion p {
+        margin: 0 5px 0 5px;
+        font-size: 1.9em; } }
 
 @media screen and (max-width: 600px) {
   .main-solaire {
