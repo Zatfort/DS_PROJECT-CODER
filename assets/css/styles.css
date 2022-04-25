@@ -1969,13 +1969,85 @@ header {
   .main_arte .column img {
     margin-top: 10px; }
 
+@media screen and (max-width: 1024px) {
+  .main_arte .column {
+    flex: 25%; } }
+
 @media screen and (max-width: 800px) {
   .main_arte .column {
-    flex: 50%; } }
+    flex: 25%; } }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .main_arte .column {
-    flex: 100%; } }
+    flex: 25%; }
+  .main_arte .titulo-arte article {
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: #100e11; }
+    .main_arte .titulo-arte article h1 {
+      text-align: center;
+      width: 100%; } }
+
+@media screen and (max-width: 600px) {
+  .main_arte .column {
+    flex: 50%; }
+  .main_arte .titulo-arte article {
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: #100e11; }
+    .main_arte .titulo-arte article h1 {
+      text-align: center;
+      width: 100%; } }
+
+@media screen and (max-width: 480px) {
+  .main_arte .column {
+    flex: 50%; }
+  .main_arte .titulo-arte article {
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: #100e11; }
+    .main_arte .titulo-arte article h1 {
+      font-size: 2.9em; } }
+
+@media screen and (max-width: 414px) {
+  .main_arte .titulo-arte article {
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: #100e11; }
+    .main_arte .titulo-arte article h1 {
+      font-size: 2.6em; } }
+
+@media screen and (max-width: 360px) {
+  .main_arte .column {
+    flex: 100%; }
+  .main_arte .titulo-arte article {
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: #100e11; }
+    .main_arte .titulo-arte article h1 {
+      font-size: 2.5em; } }
+
+@media screen and (max-width: 320px) {
+  .main_arte .column {
+    flex: 100%; }
+  .main_arte .titulo-arte article {
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: #100e11; }
+    .main_arte .titulo-arte article h1 {
+      font-size: 2.5em; } }
 
 /* ----index---- */
 .parallax-completo {

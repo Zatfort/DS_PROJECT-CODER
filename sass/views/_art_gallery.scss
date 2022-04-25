@@ -38,29 +38,153 @@
 
     
 
-    
+    @media screen and(max-width:1024px) {
+        .column{
+            flex: 25%;
+
+        }
+
+        
+        
+        
+    }
     @media screen and(max-width:800px) {
+        .column{
+            flex: 25%;
+
+        }
+
+        
+        
+        
+    }
+    @media screen and (max-width:768px) {
+        
+        .column{
+            flex: 25%;
+
+        }
+        .titulo-arte {
+            article {
+                width: 100%;
+                height: 200px;
+                justify-content: center;
+                align-items: center;
+    
+                background-color: #100e11;
+    
+                h1 {
+                    text-align: center;
+                    width: 100%;
+                }
+            }
+    
+        }
+    }
+    @media screen and (max-width:600px) {
+        
         .column{
             flex: 50%;
 
         }
-
-        
-        
-        
+        .titulo-arte {
+            article {
+                width: 100%;
+                height: 200px;
+                justify-content: center;
+                align-items: center;
+    
+                background-color: #100e11;
+    
+                h1 {
+                    text-align: center;
+                    width: 100%;
+                }
+            }
+    
+        }
     }
+    @media screen and (max-width: 480px){
+        .column{
+            flex: 50%;
+
+        }
+        .titulo-arte {
+            article {
+                width: 100%;
+                height: 200px;
+                justify-content: center;
+                align-items: center;
     
+                background-color: #100e11;
     
-    @media(max-width:600px) {
+                h1 {
+                    font-size: 2.9em;
+                }
+            }
+    
+        }
+    } 
+    @media screen and (max-width: 414px){
+        .titulo-arte {
+            article {
+                width: 100%;
+                height: 200px;
+                justify-content: center;
+                align-items: center;
+    
+                background-color: #100e11;
+    
+                h1 {
+                    font-size: 2.6em;
+                }
+            }
+    
+        }
+    } 
+    @media screen and (max-width: 360px){
         .column{
             flex: 100%;
 
         }
+        .titulo-arte {
+            article {
+                width: 100%;
+                height: 200px;
+                justify-content: center;
+                align-items: center;
+    
+                background-color: #100e11;
+    
+                h1 {
+                    font-size: 2.5em;
+                }
+            }
+    
+        }
+    } 
+    @media screen and (max-width: 320px){
+        .column{
+            flex: 100%;
 
-        
+        }
+        .titulo-arte {
+            
+            article {
+                width: 100%;
+                height: 200px;
+                justify-content: center;
+                align-items: center;
     
+                background-color: #100e11;
     
-    }
+                h1 {
+                    font-size: 2.5em;
+                }
+            }
+    
+        }
+    } 
 
 
 
@@ -76,3 +200,5 @@
 
 }
 
+
+    
