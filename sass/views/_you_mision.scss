@@ -240,3 +240,1735 @@
         }
     }
 }
+
+
+
+
+@media screen and (max-width: 600px){
+    .parallax-destino {
+    
+            width: 600px;
+            height: 400px;
+            background-image: url(../../assets/images/fotos/destino/banner.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+        
+        
+        
+      
+        
+        .maindestino {
+            width: 600px;
+        
+            .contenedor_santuario {
+                background-color: #100e11;
+                article {
+                    width: 100%;
+                    height: 100px;
+                    justify-content: center;
+                    align-items: center;
+        
+                    h1 {
+                        font-size: 2.8em;
+                    }
+                }
+            }
+    
+            .waybell{
+                width: 100%;
+                height: 100px;
+                justify-content: center;
+                align-items: center;
+        
+                h2 {
+                    font-size: 1.9em;
+                }
+    
+            }
+        
+            .div_h2 {
+                width: 100%;
+                height: 100px;
+                justify-content: center;
+                align-items: center;
+        
+                h2 {
+                    font-size: 2em;
+                }
+            }
+        
+            .section_descripcion {
+                &__pri-article {
+                    flex-wrap: wrap;
+                    width: 600px;
+                    height: 400px;
+                    text-align: center;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 1rem;
+                    font-size: 1.9em;
+                    border-bottom: 1px solid #fde49f;
+                    img{
+                        width: 600px;
+                    }
+                }
+        
+                &__pri-div {
+                    width: 100%;
+                    height: 100px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    font-size: 1.9em;
+        
+                }
+        
+                &__seg-article {
+                    flex-wrap: wrap;
+                    width: 100%;
+                    height: 500px;
+                    text-align: center;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 2rem;
+                    font-size: 1.9em;
+                    img{
+                        width: 600px;
+                    }
+                }
+        
+                &__seg-div {
+                    width: 100%;
+                    height: 350px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    font-size: 1.9em;
+                }
+        
+                .segdiv {
+                    border-bottom: 1px solid #fde49f;
+        
+        
+                }
+        
+                &__ter-article {
+                    .ter-article_pridiv {
+                        flex-wrap: wrap;
+                        justify-content: space-around;
+                        align-items: center;
+        
+                        img {
+                            width: 600px;
+                            height: 320px;
+                            
+                        }
+                        
+        
+                        p {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            height: 150px;
+                            font-size: 1.9em;
+                            text-align: center;
+                        }
+                    }
+        
+                    .ter-article_secdiv {
+                        
+                        height: 800px;
+                        justify-content: space-around;
+                        align-items: center;
+    
+                        img{
+                            width: 600px;
+                            
+                        }
+        
+                        p {
+                            width: 600px;
+                            font-size: 1.9em;
+                            text-align: center;
+                        }
+                    }
+                }
+        
+                &__cua-article {
+                    .cua-article_pridiv {
+                        flex-wrap: wrap-reverse;
+                        width: 100%;
+                        height: 550px;
+                        justify-content: space-around;
+                        align-items: center;
+                        gap: 5rem;
+        
+                        p {
+                            width: 600px;
+                            font-size: 1.9em;
+                            text-align: center;
+                        }
+        
+                        img {
+                            width: 600px;
+                            height: 300px;
+                        }
+        
+                    }
+        
+                    .parallax-destino2 {
+                        width: 600px;
+                        height: 300px;
+                        img{
+                            width: 100%;
+                            height: 300px;
+                        }
+                       
+                        
+        
+                        
+        
+        
+                    }
+        
+                    .div_presentacion-quelana {
+                        width: 600px;
+                        height: 100px;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                        font-size: 1.9em;
+                    }
+        
+                    .cua-article_secdiv {
+                        flex-wrap: wrap-reverse;
+                        width: 600px;
+                        height: 700px;
+                        justify-content: space-around;
+                        align-items: center;
+                        gap: 2.0rem;
+                        font-size: 1.7em;
+                        img{
+                            height: 500px;
+                        }
+        
+                    }
+        
+                    .hermanas_div {
+                        flex-wrap: wrap;
+                        width: 600px;
+                        height: 500px;
+                        justify-content: space-around;
+                        align-items: center;
+                        gap: 1rem;
+                        font-size: 1.9em;
+                        img{
+                            width: 550px;
+                        }
+        
+                    }
+        
+                    .cua-article_terdiv {
+                        flex-wrap: wrap;
+                        width: 100%;
+                        height: 500px;
+                        justify-content: space-around;
+                        align-items: center;
+                        gap: 5rem;
+                        font-size: 1.9em;
+                        img{
+                            width: 600px;
+                        }
+        
+                    }
+        
+                    .cua-article_cuadiv {
+                        flex-wrap: wrap-reverse;
+                        width: 600px;
+                        height: 900px;
+                        justify-content: space-around;
+                        align-items: center;
+                        gap: 4rem;
+                        font-size: 1.9em;
+                        text-align: center;
+                        img{
+                            width: 600px;
+                            height: 475px;
+                        }
+        
+                    }
+        
+        
+        
+        
+                }
+        
+                .div_bellend {
+                    width: 100%;
+                    height: 200px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    font-size: 2em;
+        
+                }
+        
+                &__quin-article {
+                    flex-wrap: wrap-reverse;
+                    width: 100%;
+                    height: 900px;
+                    justify-content: space-around;
+                    align-items: center;
+                  
+                    font-size: 2em;
+                    img{
+                        width: 500px;
+                    }
+        
+                }
+            }
+        }
+    
+    }
+
+@media screen and (max-width: 480px){
+    .parallax-destino {
+    
+            width: 480px;
+            height: 400px;
+            background-image: url(../../assets/images/fotos/destino/banner.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+        
+        
+        
+      
+        
+        .maindestino {
+            width: 480px;
+        
+            .contenedor_santuario {
+                background-color: #100e11;
+                article {
+                    width: 100%;
+                    height: 100px;
+                    justify-content: center;
+                    align-items: center;
+        
+                    h1 {
+                        font-size: 2.6em;
+                    }
+                }
+            }
+    
+            .waybell{
+                width: 100%;
+                height: 100px;
+                justify-content: center;
+                align-items: center;
+        
+                h2 {
+                    font-size: 1.8em;
+                }
+    
+            }
+        
+            .div_h2 {
+                width: 100%;
+                height: 100px;
+                justify-content: center;
+                align-items: center;
+        
+                h2 {
+                    font-size: 1.9em;
+                }
+            }
+        
+            .section_descripcion {
+                &__pri-article {
+                    flex-wrap: wrap;
+                    width: 480px;
+                    height: 400px;
+                    text-align: center;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 1rem;
+                    font-size: 1.7em;
+                    border-bottom: 1px solid #fde49f;
+                    img{
+                        width: 480px;
+                    }
+                }
+        
+                &__pri-div {
+                    width: 100%;
+                    height: 100px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    font-size: 1.7em;
+        
+                }
+        
+                &__seg-article {
+                    flex-wrap: wrap;
+                    width: 100%;
+                    height: 500px;
+                    text-align: center;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 2rem;
+                    font-size: 1.7em;
+                    img{
+                        width: 480px;
+                    }
+                }
+        
+                &__seg-div {
+                    width: 100%;
+                    height: 300px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    font-size: 1.7em;
+                }
+        
+                .segdiv {
+                    border-bottom: 1px solid #fde49f;
+        
+        
+                }
+        
+                &__ter-article {
+                    .ter-article_pridiv {
+                        flex-wrap: wrap;
+                        justify-content: space-around;
+                        align-items: center;
+        
+                        img {
+                            width: 100%;
+                            height: 320px;
+                            
+                        }
+                        
+        
+                        p {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            height: 150px;
+                            font-size: 1.8em;
+                            text-align: center;
+                        }
+                    }
+        
+                    .ter-article_secdiv {
+                        
+                        height: 800px;
+                        justify-content: space-around;
+                        align-items: center;
+    
+                        img{
+                            width: 480px;
+                            
+                        }
+        
+                        p {
+                            width: 480px;
+                            font-size: 1.8em;
+                            text-align: center;
+                        }
+                    }
+                }
+        
+                &__cua-article {
+                    .cua-article_pridiv {
+                        flex-wrap: wrap-reverse;
+                        width: 100%;
+                        height: 550px;
+                        justify-content: space-around;
+                        align-items: center;
+                        gap: 5rem;
+        
+                        p {
+                            width: 480px;
+                            font-size: 1.4em;
+                            text-align: center;
+                        }
+        
+                        img {
+                            width: 480px;
+                            height: 300px;
+                        }
+        
+                    }
+        
+                    .parallax-destino2 {
+                        width: 480px;
+                        height: 300px;
+                        img{
+                            width: 100%;
+                            height: 300px;
+                        }
+                       
+                        
+        
+                        
+        
+        
+                    }
+        
+                    .div_presentacion-quelana {
+                        width: 480px;
+                        height: 100px;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                        font-size: 1.8em;
+                    }
+        
+                    .cua-article_secdiv {
+                        flex-wrap: wrap-reverse;
+                        width: 480px;
+                        height: 700px;
+                        justify-content: space-around;
+                        align-items: center;
+                        gap: 2.0rem;
+                        font-size: 1.7em;
+                        img{
+                            height: 470px;
+                        }
+        
+                    }
+        
+                    .hermanas_div {
+                        flex-wrap: wrap;
+                        width: 480px;
+                        height: 500px;
+                        justify-content: space-around;
+                        align-items: center;
+                        gap: 1rem;
+                        font-size: 1.8em;
+                        img{
+                            width: 100%;
+                        }
+        
+                    }
+        
+                    .cua-article_terdiv {
+                        flex-wrap: wrap;
+                        width: 100%;
+                        height: 500px;
+                        justify-content: space-around;
+                        align-items: center;
+                        gap: 5rem;
+                        font-size: 1.7em;
+                        img{
+                            width: 480px;
+                        }
+        
+                    }
+        
+                    .cua-article_cuadiv {
+                        flex-wrap: wrap-reverse;
+                        width: 480px;
+                        height: 900px;
+                        justify-content: space-around;
+                        align-items: center;
+                        gap: 4rem;
+                        font-size: 1.8em;
+                        text-align: center;
+                        img{
+                            width: 480px;
+                            height: 375px;
+                        }
+        
+                    }
+        
+        
+        
+        
+                }
+        
+                .div_bellend {
+                    width: 100%;
+                    height: 100px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    font-size: 1.8em;
+        
+                }
+        
+                &__quin-article {
+                    flex-wrap: wrap-reverse;
+                    width: 100%;
+                    height: 700px;
+                    justify-content: space-around;
+                    align-items: center;
+                  
+                    font-size: 1.8em;
+                    img{
+                        width: 480px;
+                    }
+        
+                }
+            }
+        }
+    
+    }
+ 
+@media screen and (max-width: 414px){
+    .parallax-destino {
+    
+            width: 414px;
+            height: 400px;
+            background-image: url(../../assets/images/fotos/destino/banner.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+        
+        
+        
+      
+        
+        .maindestino {
+            width: 414px;
+        
+            .contenedor_santuario {
+                background-color: #100e11;
+                article {
+                    width: 100%;
+                    height: 100px;
+                    justify-content: center;
+                    align-items: center;
+        
+                    h1 {
+                        font-size: 2.4em;
+                    }
+                }
+            }
+    
+            .waybell{
+                width: 100%;
+                height: 100px;
+                justify-content: center;
+                align-items: center;
+        
+                h2 {
+                    font-size: 1.7em;
+                }
+    
+            }
+        
+            .div_h2 {
+                width: 100%;
+                height: 100px;
+                justify-content: center;
+                align-items: center;
+        
+                h2 {
+                    font-size: 1.7em;
+                }
+            }
+        
+            .section_descripcion {
+                &__pri-article {
+                    flex-wrap: wrap;
+                    width: 414px;
+                    height: 400px;
+                    text-align: center;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 1rem;
+                    font-size: 1.5em;
+                    border-bottom: 1px solid #fde49f;
+                    img{
+                        width: 414px;
+                    }
+                }
+        
+                &__pri-div {
+                    width: 100%;
+                    height: 100px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    font-size: 1.6em;
+        
+                }
+        
+                &__seg-article {
+                    flex-wrap: wrap;
+                    width: 100%;
+                    height: 500px;
+                    text-align: center;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 2rem;
+                    font-size: 1.6em;
+                    img{
+                        width: 414px;
+                    }
+                }
+        
+                &__seg-div {
+                    width: 100%;
+                    height: 300px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    font-size: 1.6em;
+                }
+        
+                .segdiv {
+                    border-bottom: 1px solid #fde49f;
+        
+        
+                }
+        
+                &__ter-article {
+                    .ter-article_pridiv {
+                        flex-wrap: wrap;
+                        justify-content: space-around;
+                        align-items: center;
+        
+                        img {
+                            width: 100%;
+                            height: 320px;
+                            
+                        }
+                        
+        
+                        p {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            height: 150px;
+                            font-size: 1.7em;
+                            text-align: center;
+                        }
+                    }
+        
+                    .ter-article_secdiv {
+                        
+                        height: 800px;
+                        justify-content: space-around;
+                        align-items: center;
+    
+                        img{
+                            width: 414px;
+                            
+                        }
+        
+                        p {
+                            width: 414px;
+                            font-size: 1.7em;
+                            text-align: center;
+                        }
+                    }
+                }
+        
+                &__cua-article {
+                    .cua-article_pridiv {
+                        flex-wrap: wrap-reverse;
+                        width: 100%;
+                        height: 550px;
+                        justify-content: space-around;
+                        align-items: center;
+                        gap: 5rem;
+        
+                        p {
+                            width: 414px;
+                            font-size: 1.4em;
+                            text-align: center;
+                        }
+        
+                        img {
+                            width: 414px;
+                            height: 300px;
+                        }
+        
+                    }
+        
+                    .parallax-destino2 {
+                        width: 414px;
+                        height: 300px;
+                        img{
+                            width: 100%;
+                            height: 200px;
+                        }
+                       
+                        
+        
+                        
+        
+        
+                    }
+        
+                    .div_presentacion-quelana {
+                        width: 414px;
+                        height: 100px;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                        font-size: 1.7em;
+                    }
+        
+                    .cua-article_secdiv {
+                        flex-wrap: wrap-reverse;
+                        width: 414px;
+                        height: 700px;
+                        justify-content: space-around;
+                        align-items: center;
+                        gap: 2.0rem;
+                        font-size: 1.7em;
+                        img{
+                            height: 410px;
+                        }
+        
+                    }
+        
+                    .hermanas_div {
+                        flex-wrap: wrap;
+                        width: 414px;
+                        height: 500px;
+                        justify-content: space-around;
+                        align-items: center;
+                        gap: 1rem;
+                        font-size: 1.7em;
+                        img{
+                            width: 100%;
+                        }
+        
+                    }
+        
+                    .cua-article_terdiv {
+                        flex-wrap: wrap;
+                        width: 100%;
+                        height: 500px;
+                        justify-content: space-around;
+                        align-items: center;
+                        gap: 5rem;
+                        font-size: 1.7em;
+                        img{
+                            width: 414px;
+                        }
+        
+                    }
+        
+                    .cua-article_cuadiv {
+                        flex-wrap: wrap-reverse;
+                        width: 414px;
+                        height: 900px;
+                        justify-content: space-around;
+                        align-items: center;
+                        gap: 4rem;
+                        font-size: 1.7em;
+                        text-align: center;
+                        img{
+                            width: 414px;
+                        }
+        
+                    }
+        
+        
+        
+        
+                }
+        
+                .div_bellend {
+                    width: 100%;
+                    height: 100px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    font-size: 1.7em;
+        
+                }
+        
+                &__quin-article {
+                    flex-wrap: wrap-reverse;
+                    width: 100%;
+                    height: 700px;
+                    justify-content: space-around;
+                    align-items: center;
+                  
+                    font-size: 1.7em;
+                    img{
+                        width: 414px;
+                    }
+        
+                }
+            }
+        }
+    
+    }
+
+@media screen and (max-width: 375px){
+    .parallax-destino {
+    
+            width: 375px;
+            height: 400px;
+            background-image: url(../../assets/images/fotos/destino/banner.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+        
+        
+        
+      
+        
+        .maindestino {
+            width: 375px;
+        
+            .contenedor_santuario {
+                background-color: #100e11;
+                article {
+                    width: 100%;
+                    height: 100px;
+                    justify-content: center;
+                    align-items: center;
+        
+                    h1 {
+                        font-size: 2.1em;
+                    }
+                }
+            }
+    
+            .waybell{
+                width: 100%;
+                height: 100px;
+                justify-content: center;
+                align-items: center;
+        
+                h2 {
+                    font-size: 1.5em;
+                }
+    
+            }
+        
+            .div_h2 {
+                width: 100%;
+                height: 100px;
+                justify-content: center;
+                align-items: center;
+        
+                h2 {
+                    font-size: 1.7em;
+                }
+            }
+        
+            .section_descripcion {
+                &__pri-article {
+                    flex-wrap: wrap;
+                    width: 375px;
+                    height: 400px;
+                    text-align: center;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 1rem;
+                    font-size: 1.5em;
+                    border-bottom: 1px solid #fde49f;
+                    img{
+                        width: 375px;
+                    }
+                }
+        
+                &__pri-div {
+                    width: 100%;
+                    height: 100px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    font-size: 1.5em;
+        
+                }
+        
+                &__seg-article {
+                    flex-wrap: wrap;
+                    width: 100%;
+                    height: 500px;
+                    text-align: center;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 2rem;
+                    font-size: 1.5em;
+                    img{
+                        width: 375px;
+                    }
+                }
+        
+                &__seg-div {
+                    width: 100%;
+                    height: 300px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    font-size: 1.5em;
+                }
+        
+                .segdiv {
+                    border-bottom: 1px solid #fde49f;
+        
+        
+                }
+        
+                &__ter-article {
+                    .ter-article_pridiv {
+                        flex-wrap: wrap;
+                        justify-content: space-around;
+                        align-items: center;
+        
+                        img {
+                            width: 100%;
+                            height: 320px;
+                            
+                        }
+                        
+        
+                        p {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            height: 150px;
+                            font-size: 1.5em;
+                            text-align: center;
+                        }
+                    }
+        
+                    .ter-article_secdiv {
+                        
+                        height: 800px;
+                        justify-content: space-around;
+                        align-items: center;
+    
+                        img{
+                            width: 375px;
+                            
+                        }
+        
+                        p {
+                            width: 360px;
+                            font-size: 1.5em;
+                            text-align: center;
+                        }
+                    }
+                }
+        
+                &__cua-article {
+                    .cua-article_pridiv {
+                        flex-wrap: wrap-reverse;
+                        width: 100%;
+                        height: 550px;
+                        justify-content: space-around;
+                        align-items: center;
+                        gap: 5rem;
+        
+                        p {
+                            width: 375px;
+                            font-size: 1.4em;
+                            text-align: center;
+                        }
+        
+                        img {
+                            width: 375px;
+                            height: 300px;
+                        }
+        
+                    }
+        
+                    .parallax-destino2 {
+                        width: 375px;
+                        height: 300px;
+                        img{
+                            width: 100%;
+                            height: 200px;
+                        }
+                       
+                        
+        
+                        
+        
+        
+                    }
+        
+                    .div_presentacion-quelana {
+                        width: 360px;
+                        height: 100px;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                        font-size: 1.5em;
+                    }
+        
+                    .cua-article_secdiv {
+                        flex-wrap: wrap-reverse;
+                        width: 360px;
+                        height: 700px;
+                        justify-content: space-around;
+                        align-items: center;
+                        gap: 2.0rem;
+                        font-size: 1.5em;
+                        img{
+                            height: 370px;
+                        }
+        
+                    }
+        
+                    .hermanas_div {
+                        flex-wrap: wrap;
+                        width: 375px;
+                        height: 500px;
+                        justify-content: space-around;
+                        align-items: center;
+                        gap: 1rem;
+                        font-size: 1.4em;
+                        img{
+                            width: 100%;
+                        }
+        
+                    }
+        
+                    .cua-article_terdiv {
+                        flex-wrap: wrap;
+                        width: 100%;
+                        height: 500px;
+                        justify-content: space-around;
+                        align-items: center;
+                        gap: 5rem;
+                        font-size: 1.5em;
+                        img{
+                            width: 360px;
+                        }
+        
+                    }
+        
+                    .cua-article_cuadiv {
+                        flex-wrap: wrap-reverse;
+                        width: 375px;
+                        height: 900px;
+                        justify-content: space-around;
+                        align-items: center;
+                        gap: 4rem;
+                        font-size: 1.3em;
+                        text-align: center;
+                        img{
+                            width: 375px;
+                        }
+        
+                    }
+        
+        
+        
+        
+                }
+        
+                .div_bellend {
+                    width: 100%;
+                    height: 100px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    font-size: 1.4em;
+        
+                }
+        
+                &__quin-article {
+                    flex-wrap: wrap-reverse;
+                    width: 100%;
+                    height: 700px;
+                    justify-content: space-around;
+                    align-items: center;
+                  
+                    font-size: 1.4em;
+                    img{
+                        width: 360px;
+                    }
+        
+                }
+            }
+        }
+    
+    }
+
+@media screen and (max-width: 360px){
+.parallax-destino {
+
+        width: 360px;
+        height: 400px;
+        background-image: url(../../assets/images/fotos/destino/banner.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    
+    
+  
+    
+    .maindestino {
+        width: 360px;
+    
+        .contenedor_santuario {
+            background-color: #100e11;
+            article {
+                width: 100%;
+                height: 100px;
+                justify-content: center;
+                align-items: center;
+    
+                h1 {
+                    font-size: 2.1em;
+                }
+            }
+        }
+
+        .waybell{
+            width: 100%;
+            height: 100px;
+            justify-content: center;
+            align-items: center;
+    
+            h2 {
+                font-size: 1.4em;
+            }
+
+        }
+    
+        .div_h2 {
+            width: 100%;
+            height: 100px;
+            justify-content: center;
+            align-items: center;
+    
+            h2 {
+                font-size: 1.6em;
+            }
+        }
+    
+        .section_descripcion {
+            &__pri-article {
+                flex-wrap: wrap;
+                width: 360px;
+                height: 400px;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                gap: 1rem;
+                font-size: 1.5em;
+                border-bottom: 1px solid #fde49f;
+                img{
+                    width: 320px;
+                }
+            }
+    
+            &__pri-div {
+                width: 100%;
+                height: 100px;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-size: 1.5em;
+    
+            }
+    
+            &__seg-article {
+                flex-wrap: wrap;
+                width: 100%;
+                height: 500px;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                gap: 2rem;
+                font-size: 1.5em;
+                img{
+                    width: 360px;
+                }
+            }
+    
+            &__seg-div {
+                width: 100%;
+                height: 300px;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-size: 1.5em;
+            }
+    
+            .segdiv {
+                border-bottom: 1px solid #fde49f;
+    
+    
+            }
+    
+            &__ter-article {
+                .ter-article_pridiv {
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    align-items: center;
+    
+                    img {
+                        width: 100%;
+                        height: 320px;
+                        
+                    }
+                    
+    
+                    p {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 150px;
+                        font-size: 1.5em;
+                        text-align: center;
+                    }
+                }
+    
+                .ter-article_secdiv {
+                    
+                    height: 800px;
+                    justify-content: space-around;
+                    align-items: center;
+
+                    img{
+                        width: 360px;
+                        
+                    }
+    
+                    p {
+                        font-size: 1.5em;
+                        text-align: center;
+                    }
+                }
+            }
+    
+            &__cua-article {
+                .cua-article_pridiv {
+                    flex-wrap: wrap-reverse;
+                    width: 100%;
+                    height: 550px;
+                    justify-content: space-around;
+                    align-items: center;
+                    gap: 5rem;
+    
+                    p {
+                        width: 360px;
+                        font-size: 1.4em;
+                        text-align: center;
+                    }
+    
+                    img {
+                        width: 360px;
+                        height: 300px;
+                    }
+    
+                }
+    
+                .parallax-destino2 {
+                    width: 360px;
+                    height: 300px;
+                    img{
+                        width: 100%;
+                        height: 200px;
+                    }
+                   
+                    
+    
+                    
+    
+    
+                }
+    
+                .div_presentacion-quelana {
+                    width: 360px;
+                    height: 100px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    font-size: 1.4em;
+                }
+    
+                .cua-article_secdiv {
+                    flex-wrap: wrap-reverse;
+                    width: 360px;
+                    height: 700px;
+                    justify-content: space-around;
+                    align-items: center;
+                    gap: 2.0rem;
+                    font-size: 1.5em;
+                    img{
+                        height: 350px;
+                    }
+    
+                }
+    
+                .hermanas_div {
+                    flex-wrap: wrap;
+                    width: 360px;
+                    height: 500px;
+                    justify-content: space-around;
+                    align-items: center;
+                    gap: 1rem;
+                    font-size: 1.4em;
+                    img{
+                        width: 100%;
+                    }
+    
+                }
+    
+                .cua-article_terdiv {
+                    flex-wrap: wrap;
+                    width: 100%;
+                    height: 500px;
+                    justify-content: space-around;
+                    align-items: center;
+                    gap: 5rem;
+                    font-size: 1.5em;
+                    img{
+                        width: 360px;
+                    }
+    
+                }
+    
+                .cua-article_cuadiv {
+                    flex-wrap: wrap-reverse;
+                    width: 360px;
+                    height: 900px;
+                    justify-content: space-around;
+                    align-items: center;
+                    gap: 4rem;
+                    font-size: 1.3em;
+                    text-align: center;
+                    img{
+                        width: 360px;
+                    }
+    
+                }
+    
+    
+    
+    
+            }
+    
+            .div_bellend {
+                width: 100%;
+                height: 100px;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-size: 1.4em;
+    
+            }
+    
+            &__quin-article {
+                flex-wrap: wrap-reverse;
+                width: 100%;
+                height: 700px;
+                justify-content: space-around;
+                align-items: center;
+              
+                font-size: 1.3em;
+                img{
+                    width: 360px;
+                }
+    
+            }
+        }
+    }
+
+}
+
+@media screen and(max-width: 320px) {
+    .parallax-destino {
+
+        width: 320px;
+        height: 400px;
+        background-image: url(../../assets/images/fotos/destino/banner.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    
+    
+  
+    
+    .maindestino {
+        overflow: hidden;
+        width: 320px;
+    
+        .contenedor_santuario {
+            background-color: #100e11;
+            article {
+                width: 100%;
+                height: 100px;
+                justify-content: center;
+                align-items: center;
+    
+                h1 {
+                    font-size: 2.1em;
+                }
+            }
+        }
+
+        .waybell{
+            h2{
+                width: 320px;
+                font-size: 1.3em;
+            }
+        }
+    
+        .div_h2 {
+            width: 100%;
+            height: 100px;
+            justify-content: center;
+            align-items: center;
+    
+            h2 {
+                font-size: 1.3em;
+            }
+        }
+    
+        .section_descripcion {
+            &__pri-article {
+                flex-wrap: wrap;
+                width: 320px;
+                height: 500px;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                gap: 2rem;
+                font-size: 1.5em;
+                border-bottom: 1px solid #fde49f;
+                img{
+                    width: 320px;
+                }
+            }
+    
+            &__pri-div {
+                width: 100%;
+                height: 100px;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-size: 1.5em;
+    
+            }
+    
+            &__seg-article {
+                flex-wrap: wrap;
+                width: 100%;
+                height: 500px;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                gap: 2rem;
+                font-size: 1.5em;
+                img{
+                    width: 320px;
+                }
+            }
+    
+            &__seg-div {
+                width: 100%;
+                height: 300px;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-size: 1.5em;
+            }
+    
+            .segdiv {
+                border-bottom: 1px solid #fde49f;
+    
+    
+            }
+    
+            &__ter-article {
+                .ter-article_pridiv {
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    align-items: center;
+    
+                    img {
+                        width: 100%;
+                        height: 320px;
+                        
+                    }
+                    
+    
+                    p {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 150px;
+                        font-size: 1.5em;
+                        text-align: center;
+                    }
+                }
+    
+                .ter-article_secdiv {
+                    
+                    height: 800px;
+                    justify-content: space-around;
+                    align-items: center;
+
+                    img{
+                        width: 320px;
+                        
+                    }
+    
+                    p {
+                        font-size: 1.5em;
+                        text-align: center;
+                    }
+                }
+            }
+    
+            &__cua-article {
+                .cua-article_pridiv {
+                    flex-wrap: wrap-reverse;
+                    width: 100%;
+                    height: 550px;
+                    justify-content: space-around;
+                    align-items: center;
+                    gap: 10rem;
+    
+                    p {
+                        width: 320px;
+                        font-size: 1.5em;
+                        text-align: center;
+                    }
+    
+                    img {
+                        width: 320px;
+                        height: 300px;
+                    }
+    
+                }
+    
+                .parallax-destino2 {
+                    width: 320px;
+                    height: 300px;
+                    img{
+                        width: 100%;
+                        height: 200px;
+                    }
+                   
+                    
+    
+                    
+    
+    
+                }
+    
+                .div_presentacion-quelana {
+                    width: 320px;
+                    height: 100px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    font-size: 1.5em;
+                }
+    
+                .cua-article_secdiv {
+                    flex-wrap: wrap-reverse;
+                    width: 320px;
+                    height: 700px;
+                    justify-content: space-around;
+                    align-items: center;
+                    gap: 2.5rem;
+                    font-size: 1.5em;
+                    img{
+                        height: 350px;
+                    }
+    
+                }
+    
+                .hermanas_div {
+                    flex-wrap: wrap;
+                    width: 320px;
+                    height: 500px;
+                    justify-content: space-around;
+                    align-items: center;
+                    gap: 1rem;
+                    font-size: 1.5em;
+                    img{
+                        width: 100%;
+                    }
+    
+                }
+    
+                .cua-article_terdiv {
+                    flex-wrap: wrap;
+                    width: 100%;
+                    height: 500px;
+                    justify-content: space-around;
+                    align-items: center;
+                    gap: 5rem;
+                    font-size: 1.5em;
+                    img{
+                        width: 320px;
+                    }
+    
+                }
+    
+                .cua-article_cuadiv {
+                    flex-wrap: wrap-reverse;
+                    width: 320px;
+                    height: 900px;
+                    justify-content: space-around;
+                    align-items: center;
+                    gap: 5rem;
+                    font-size: 1.5em;
+                    img{
+                        width: 320px;
+                    }
+    
+                }
+    
+    
+    
+    
+            }
+    
+            .div_bellend {
+                width: 100%;
+                height: 100px;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-size: 1.5em;
+    
+            }
+    
+            &__quin-article {
+                flex-wrap: wrap-reverse;
+                width: 100%;
+                height: 700px;
+                justify-content: space-around;
+                align-items: center;
+              
+                font-size: 1.5em;
+                img{
+                    width: 320px;
+                }
+    
+            }
+        }
+    }
+    
+}
